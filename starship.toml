@@ -1,0 +1,277 @@
+# vim:fileencoding=utf-8:foldmethod=marker
+
+## Examples {{{
+# default
+# format = """
+# $username\
+# $hostname\
+# $localip\
+# $shlvl\
+# $singularity\
+# $kubernetes\
+# $directory\
+# $vcsh\
+# $fossil_branch\
+# $git_branch\
+# $git_commit\
+# $git_state\
+# $git_metrics\
+# $git_status\
+# $hg_branch\
+# $pijul_channel\
+# $docker_context\
+# $package\
+# $c\
+# $cmake\
+# $cobol\
+# $daml\
+# $dart\
+# $deno\
+# $dotnet\
+# $elixir\
+# $elm\
+# $erlang\
+# $fennel\
+# $golang\
+# $guix_shell\
+# $haskell\
+# $haxe\
+# $helm\
+# $java\
+# $julia\
+# $kotlin\
+# $gradle\
+# $lua\
+# $nim\
+# $nodejs\
+# $ocaml\
+# $opa\
+# $perl\
+# $php\
+# $pulumi\
+# $purescript\
+# $python\
+# $raku\
+# $rlang\
+# $red\
+# $ruby\
+# $rust\
+# $scala\
+# $swift\
+# $terraform\
+# $vlang\
+# $vagrant\
+# $zig\
+# $buf\
+# $nix_shell\
+# $conda\
+# $meson\
+# $spack\
+# $memory_usage\
+# $aws\
+# $gcloud\
+# $openstack\
+# $azure\
+# $env_var\
+# $crystal\
+# $custom\
+# $sudo\
+# $cmd_duration\
+# $line_break\
+# $jobs\
+# $battery\
+# $time\
+# $status\
+# $os\
+# $container\
+# $shell\
+# $character"""
+
+#format = '''
+#[RC](white)[ ∶ ](yellow)$directory$rust$package
+#[┌───────────────────────────────────────────────────────────────────────────────────────▶](yellow)
+#[└▶](yellow) '''
+
+# format = '''
+# $username [in](italic bright-white) $directory$rust$package$git_status$cmd_duration
+# $character '''
+
+# format = '''
+# $username [→](italic bright-white) $directory$git_status$cmd_duration[←](italic bright-white)
+# $character'''
+
+# format = '''
+# $time [|](bold bright-white) $directory$git_status$cmd_duration
+# $username $character''' 
+
+## Custom format - basic with git metrics one line
+# format = """
+# $username\
+# $git_metrics\
+# $git_status\
+# $git_branch\
+# $directory\
+# $python\
+# $c\
+# $java\
+# $lua\
+# $rust\
+# $character"""
+
+## with user module
+# format = '''
+# $username [󱦰](bright-white) $directory$git_status$git_branch$cmd_duration
+# $time $character'''
+
+## modules
+# [line_break]
+# disabled = true
+# Disable the blank line at the start of the prompt
+# add_newline = false
+
+# [character]
+# success_symbol = '[󰭓](green)'
+# error_symbol = '[󰭓](red)'
+
+# [username]
+# style_user = 'yellow'
+# format = '[ $user]($style)'
+# show_always = true
+# disabled = false
+
+# }}}
+
+## Custom format - basic
+format = """
+$time$git_branch$git_status\
+$python\
+$c\
+$java\
+$lua\
+$rust
+$directory\
+$character"""
+
+add_newline = false
+
+continuation_prompt = '[   ](black) '
+
+# right_format = '''$time'''
+
+## Modules
+[directory]
+style = 'bright-white'
+# home_symbol = '󰜥 '
+# home_symbol = 'rc'
+# home_symbol = ' '
+# home_symbol = '󱑽 '
+# home_symbol = '󰼮 '
+# home_symbol = '󰞍 '
+# home_symbol = 'rilliam'
+# home_symbol = '$HOME'
+# home_symbol = ' '
+home_symbol = ' RC'
+# format = ''
+truncate_to_repo = false
+read_only = '  '
+truncation_length = 99
+before_repo_root_style = 'bright-black'
+repo_root_style = 'underline purple'
+repo_root_format = '[$before_root_path]($before_repo_root_style)[$repo_root]($repo_root_style)[$path]($style)[$read_only]($read_only_style) '
+
+[character]
+# success_symbol = '[❯](bold green)'
+# error_symbol = '[❯](bold red)'
+# success_symbol = '[](bold green)'
+# error_symbol = '[](bold red)'
+# success_symbol = '[ ](bold green)'
+# error_symbol = '[ ](bold red)'
+# success_symbol = '[󰋇 ](green)'
+# error_symbol = '[󰋇 ](red)'
+# success_symbol = '[ ](bold green)'
+# error_symbol = '[ ](bold red)'
+# success_symbol = '[\$](bold green)'
+# error_symbol = '[\$](bold red)'
+# success_symbol = '[ ](bold green)'
+# error_symbol = '[ ](bold red)'
+success_symbol = '[ ](bold blue)'
+error_symbol = '[ ](bold red)'
+
+[fill]
+symbol = ' '
+
+[time]
+disabled = false
+style = 'bright-white'
+time_format = '%I:%M'
+# format = '[ $time]($style)'
+format = '[$time]($style) '
+use_12hr = true
+
+[username]
+style_user = 'blue'
+format = '[ $user]($style) '
+show_always = true
+disabled = false
+
+[git_status]
+ahead = '⇡${count}'
+diverged = '⇕⇡${ahead_count}⇣${behind_count}'
+behind = '⇣${count}'
+style = 'bold red'
+format = '([\[$all_status$ahead_behind\]]($style) )'
+
+[git_branch]
+# style = 'blue bold'
+style = 'blue bold'
+format = '([$symbol$branch(:$remote_branch)]($style) )'
+
+[git_metrics]
+disabled = false
+format = '([\(](bright-white)[+$added]($added_style)[/](bright-white)[-$deleted]($deleted_style)[\)](bright-white) )'
+
+[cmd_duration]
+show_milliseconds = false
+format = '[󰔚 ](purple)[$duration](bright-white)'
+min_time = 1000
+
+[shell]
+disabled = false
+style = 'bright-white'
+
+# languages
+[python]
+symbol = '[ ](blue)'
+style = 'bright-white'
+format = '(bright-white)[${symbol}${pyenv_prefix}${version}(\($virtualenv\))]($style) '
+detect_files = ['.python-version', 
+                  'Pipfile', 
+                  '__init__.py', 
+                  'pyproject.toml', 
+                  'requirements.txt', 
+                  'setup.py', 
+                  'tox.ini',
+                  'pyvenv.cfg'
+]
+# detect_folders = ['']
+
+[lua]
+symbol = '[󰢱 ](cyan)'
+style = 'bright-white'
+# format = '[via ](bright-white)[${symbol}${version}]($style) '
+format = '(bright-white)[${symbol}${version}]($style) '
+
+[c]
+symbol = '[ ](purple)'
+style = 'bright-white'
+format = '[via ](bright-white)[${symbol}${version}]($style) '
+
+[java]
+symbol = '[ ](red)'
+style = 'bright-white'
+format = '[via ](bright-white)[${symbol}${version}]($style) '
+
+[rust]
+symbol = '[󱘗 ](yellow)'
+style = 'bright-white'
+format = '[via ](bright-white)[${symbol}${version}]($style) '

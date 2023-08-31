@@ -1,0 +1,138 @@
+/*******************************************************************************
+ * MACOS SPOTLIGHT LIKE DARK THEME FOR ROFI 
+ * User                 : LR-Tech               
+ * Theme Repo           : https://github.com/lr-tech/rofi-themes-collection
+ *******************************************************************************/
+
+* {
+    font:   "JetBrainsMono Nerd Font 12";
+
+    // yoru
+    // bg0:    #0c0e0fbf;
+    // bg0-n:    #0c0e0f;
+    // bg1:    #34363780;
+    // bg2:    #78b892f6;
+    // bg2-a:    #6791c9f6;
+
+    // fg0:    #edeff0;
+    // fg1:    #7d7f80;
+    // fg2:    #DEDEDE80;
+
+    bg0:    #11111bbf;
+    bg0-n:    #11111b;
+    bg1:    #31324480;
+    bg2:    #f5c2e7f6;
+    bg2-a:    #6c7086f6;
+
+    fg0:    #cdd6f4;
+    fg1:    #a6adc8;
+    fg2:    #DEDEDE80;
+
+    background-color:   transparent;
+    text-color:         @fg0;
+
+    margin:     0;
+    padding:    0;
+    spacing:    0;
+}
+
+window {
+    background-color:   @bg0;
+
+    location:       center;
+    width:          1350;
+    border-radius:  6;
+    //border: 1px;
+    //border-color: @bg2;
+    children: [inputbar, listview, mode-switcher];
+}
+
+inputbar {
+    font:       "JetBrainsMono Nerd Font 14";
+    padding:    12px;
+    spacing:    12px;
+    background-color: @bg1;
+    children:   [ textbox-search, entry ];
+}
+
+textbox-search {
+    font:       "JetBrainsMono Nerd Font 17";
+    expand:     false;
+    content:   "";
+    width: 25;
+    text-color: @bg2-a;
+}
+
+textbox-search, entry, element-icon, element-text {
+    vertical-align: 0.5;
+}
+
+entry {
+    font:   inherit;
+
+    placeholder         : "Search";
+    placeholder-color   : @fg2;
+}
+
+mode-switcher {
+
+}
+
+message {
+    border:             2px 0 0;
+    border-color:       @fg1;
+    background-color:   @bg1;
+}
+
+textbox {
+    padding:    8px 24px;
+}
+
+listview {
+    lines:      10;
+    columns:    3;
+
+    fixed-height:   false;
+    border:         1px 0 0;
+    border-color:   @bg2;
+    padding: 4px;
+}
+
+element {
+    padding:            8px 16px;
+    spacing:            16px;
+    background-color:   transparent;
+}
+
+element normal active {
+    text-color: @bg0;
+}
+
+element selected normal, element selected active {
+    background-color:   @bg2;
+    text-color:         @bg0-n;
+}
+
+element-icon {
+    size:   1em;
+}
+
+element-text {
+    text-color: inherit;
+}
+
+mode-switcher {
+    //background-color: @bg1;
+    //border: 1px 0 0;
+    //border-color: @bg2;
+}
+
+button {
+    text-color: @fg1;
+    padding: 8px;
+    cursor: pointer;
+}
+
+button selected.normal {
+    background-color: @bg1;
+}

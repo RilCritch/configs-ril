@@ -1,0 +1,243 @@
+#!/usr/bin/env lua
+
+
+conky.config = {
+
+	--Various settings
+	background = false, 							    -- forked to background
+	cpu_avg_samples = 2,						    -- The number of samples to average for CPU monitoring.
+	diskio_avg_samples = 10,		  	    -- The number of samples to average for disk I/O monitoring.
+	double_buffer = true,						    -- Use the Xdbe extension? (eliminates flicker)
+	if_up_strictness = 'address',		    -- how strict if testing interface is up - up, link or address
+	net_avg_samples = 2,						    -- The number of samples to average for net data
+	no_buffers = true,							    -- Subtract (file system) buffers from used memory?
+	temperature_unit = 'fahrenheit',		-- fahrenheit or celsius
+	text_buffer_size = 2048,	  		    -- size of buffer for display of content of large variables - default 256
+	update_interval = 1,						    -- update interval
+	imlib_cache_size = 0,               -- disable image cache to get a new spotify cover per song
+
+
+	--Placement
+	alignment = 'top_right',    -- top-left,top-middle,top-right,bottom-left,bottom-middle,bottom-right,
+                              -- middle-left,middle-middle,middle-right,none
+	--Arch Duoscreen
+	--gap_x = -1910,
+	gap_x = 16,   		        -- pixels between right or left border
+	gap_y = 76,						    -- pixels between bottom or left border
+	minimum_height = 1320,    -- minimum height of window
+	minimum_width = 260,			-- minimum height of window
+	maximum_width = 260,		  -- maximum height of window
+
+	--Graphical
+	border_inner_margin = 6, 					    -- margin between border and text
+	border_outer_margin = 0, 					    -- margin between border and edge of window
+	border_width = 0, 							      -- border width in pixels
+	-- default_bar_width = 29,					    -- default is 0 - full width
+	default_bar_height = 6,					    -- default is 6
+	default_gauge_height = 25,					  -- default is 25
+	default_gauge_width = 40,					    -- default is 40
+	default_graph_height = 40,					  -- default is 25
+	-- default_graph_width = 153,					  -- default is 0 - full width
+	default_shade_color = '#0c0e0f',			-- default shading colour
+	default_outline_color = '#78b892',    -- default outline colour
+	draw_borders = false,						      -- draw borders around text
+	draw_graph_borders = true,					  -- draw borders around graphs
+	draw_shades = false,						      -- draw shades
+	draw_outline = false,						      -- draw outline
+	stippled_borders = 0,						      -- dashing the border
+
+	--Textual
+
+	extra_newline = false,						-- extra newline at the end - for asesome's wiboxes
+	format_human_readable = true,				-- KiB, MiB rather then number of bytes
+	-- font = 'Noto Mono:size=11:regular',  			-- font for complete conky unless in code defined
+	-- font = 'JetBrainsMono Nerd Font Mono:size=12',  			-- font for complete conky unless in code defined
+	font = 'Ubuntu:pixelsize=16',  			-- font for complete conky unless in code defined
+	max_text_width = 0,							-- 0 will make sure line does not get broken if width too smal
+	max_user_text = 16384,						-- max text in conky default 16384
+	override_utf8_locale = true,				-- force UTF8 requires xft
+	short_units = true,							-- shorten units from KiB to k
+	top_name_width = 21,						-- width for $top name value default 15
+	top_name_verbose = false,					-- If true, top name shows the full command line of  each  process - Default value is false.
+	uppercase = false,							-- uppercase or not
+	use_spacer = 'none',						-- adds spaces around certain objects to align - default none
+	use_xft = true,								-- xft font - anti-aliased font
+	xftalpha = 1,								-- alpha of the xft font - between 0-1
+
+	--Windows
+	own_window = true,							                                                -- create your own window to draw
+	own_window_argb_value = 190,			                                              -- real transparency - composite manager required 0-255
+	own_window_argb_visual = true,				                                          -- use ARGB - composite manager required
+	own_window_class = 'Conky',					                                            -- manually set the WM_CLASS name for use with xprop
+	own_window_colour = '#0c0e0f',				                                          -- set colour if own_window_transparent no
+	own_window_hints = 'undecorated,below,above,sticky,skip_taskbar,skip_pager',    -- if own_window true - just hints - own_window_type sets it
+	own_window_transparent = false,				                                          -- if own_window_argb_visual is true sets background opacity 0%
+	own_window_title = 'system_conky',			                                        -- set the name manually  - default conky "hostname"
+	own_window_type = 'dock',				                                                -- if own_window true options are: normal/override/dock/desktop/panel
+
+
+	--Colours
+
+	default_color = '#edeff0',  				-- default color and border color
+	color1 = '#edeff0',
+	color2 = '#7d7f80',
+	color3 = '#505253',
+	color4 = '#343637',
+	color5 = '#1f2112',
+	color6 = '#6791c9',
+	color7 = '#78b892',  						--green
+	color8 = '#ecd28b',  						--orange
+	color9 = '#df5b61',  						--firebrick
+
+
+  -- cpu processes
+  template1 = [[${voffset -3}${color3}${top name \1}${alignr}${top cpu \1}%]],
+  template2 = [[${color3}\1${voffset 2}${offset 6}${color3}${cpugraph 20,99 cpu\1}${voffset -2}${offset 8}${color3}\2${voffset 2}${offset 6}${color3}${cpugraph 20,99 cpu\2}${voffset -16}
+  ]],
+  -- ram processes
+  template3 = [[${voffset -3}${color3}${top_mem name \1}${alignr}${top_mem mem_res \1}]],
+
+
+};
+conky.text = [[
+# --------------------------------------------------------------------- desktop environment info
+${voffset -15}
+#
+${color7}${alignr}${font Ubuntu:style=Medium:pixelsize=50}Qtile${font}
+#
+${font Ubuntu:pixelsize=15}${voffset -10}
+#
+${alignr}${color6}${execp python --version} 
+#
+${font Ubuntu:pixelsize=14}${voffset -15}
+#
+${color2}\
+${alignr}A tiling window manager
+${alignr}written and configured in Python
+
+
+# --------------------------------------------------------------------- general system info
+${color7}${font Mononoki Nerd Font :size=20} \
+${offset 6}${voffset 2}${font Ubuntu:style=Medium:pixelsize=22}System  \
+${color4}${voffset 3}${hr 2}${font}
+#
+${font Ubuntu:pixelsize=15}${voffset -10}
+#
+${color6}${nodename} ${color2}(${machine})\
+${alignr}${color2}$kernel${color}
+#
+${voffset -15}
+#
+${color2}Uptime:${color2}${alignr}${uptime}${color}
+#
+${voffset -10}
+#
+${color6}${font Mononoki Nerd Font :size=12}\
+ \
+${offset 6}${voffset 2}\
+${if_match ${pa_sink_volume}==100}${color9}\
+${else}${if_match ${pa_sink_volume}<100}${color8}\
+${else}${if_match ${pa_sink_volume}<80}${color7}\
+${else}${if_match ${pa_sink_volume}<40}${color2}\
+${endif}\
+${pa_sink_volumebar 15}${font}
+
+
+# --------------------------------------------------------------------- general keybindings
+${color7}${font Mononoki Nerd Font :size=20} \
+${offset 6}${voffset 2}${font Ubuntu:style=Medium:pixelsize=22}General Use  \
+${color4}${voffset 3}${hr 2}${font}
+#
+${font Ubuntu:pixelsize=15}${voffset -10}
+#
+${color2}[S] + [Shift] + r${alignr}${color6}Application Menu
+${voffset -10}
+${color2}[S] + [Shift]+ q${alignr}${color6}Kill Focused App
+#
+${color4}${hr 1}
+${voffset 2}${color2}[S] + [Shift] + s${alignr}${color6}System Options
+${voffset -10}
+${color2}[S] + [Ctrl] + x${alignr}${color6}Loguout Menu
+#
+${color4}${hr 1}
+${voffset 2}${color2}[S] + b${alignr}${color6}All Keybindings
+
+
+# --------------------------------------------------------------------- cpu information
+${color7}${font Mononoki Nerd Font :size=20} \
+${offset 6}${voffset 2}${font Ubuntu:style=Medium:pixelsize=22}CPU  \
+${color4}${voffset 3}${hr 2}${font}
+#
+${font Ubuntu:pixelsize=15}${voffset -10}
+#
+#${color6}AMD Ryzen 9 6900HX${alignr}
+${color6}${execp cat /proc/cpuinfo | awk -F ': ' '/model name/ {gsub("with .*", "", $2); print $2; exit}'}${alignr}\
+${if_match ${cpu cpu0}<50}${color2}\
+${else}${if_match ${cpu cpu0}>=50}${color8}\
+${else}${if_match ${cpu cpu0}>=90}${color9}${endif}\
+${cpu cpu0}%${color}
+#
+${voffset -15}
+#
+${if_match ${cpu cpu0}<100}${color2}\
+${else}${if_match ${cpu cpu0 }==100}${color9}${endif}\
+${cpugraph cpu0 -l}${color}
+#
+#${color2}Threads - ${execp nproc}${voffset 6}
+#
+${font JetbrainsMono Nerd Font :pixelsize=16}\
+${template2 01 02}
+${template2 03 04}
+${template2 05 06}
+${template2 07 08}
+${template2 09 10}
+${template2 11 12}
+${template2 13 14}
+${template2 15 16}
+#
+${font Ubuntu:pixelsize=15}\
+${voffset -3}${color6}process${alignr}${color2}cpu
+#
+${font Ubuntu:pixelsize=14}${voffset 6}${template1 1}
+${template1 2}
+${template1 3}
+${template1 4}
+#${template1 5}
+#${template1 6}
+#${template1 7}
+
+
+# --------------------------------------------------------------------- ram information
+${color7}${font Mononoki Nerd Font :size=20} \
+${offset 6}${voffset 2}${font Ubuntu:style=Medium:pixelsize=22}Memory  \
+${color4}${voffset 3}${hr 2}${font}
+#
+${font Ubuntu:pixelsize=15}${voffset -10}
+#
+${color6}${mem}${alignr}${color2}${memmax}
+#
+${voffset -15}
+#
+#${color2}${voffset 1}${membar}
+${color2}${memgraph}$color{}
+#
+${color2}Swap${color3}${offset 6}${voffset 1}${swapbar}
+#
+${voffset -10}
+#
+${color6}process${alignr}${color2}mem
+#
+${font Ubuntu:pixelsize=14}${voffset 6}${template3 1}
+${template3 2}
+${template3 3}
+${template3 4}
+#${template3 5}
+#${template3 6}
+#${template3 7}
+
+
+${color7}${font Mononoki Nerd Font :size=20}󰋊 ${offset 6}${offset -8}${voffset 2}${font Ubuntu:style=Medium:pixelsize=22}Storage  ${color4}${voffset 3}${hr 2}${font}
+${font Ubuntu:pixelsize=15}${voffset -10}
+${color6}Root ${color2}(${fs_type})${alignr}${color2}${fs_used /}/${fs_size /}
+${color2}${voffset 1}${fs_bar /}${voffset -15}
+]];
