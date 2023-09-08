@@ -176,7 +176,7 @@ truncate_to_repo = false
 read_only = '  '
 truncation_length = 99
 before_repo_root_style = 'bright-black'
-repo_root_style = 'underline purple'
+repo_root_style = 'underline bright-white'
 repo_root_format = '[$before_root_path]($before_repo_root_style)[$repo_root]($repo_root_style)[$path]($style)[$read_only]($read_only_style) '
 
 [character]
