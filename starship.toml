@@ -139,6 +139,16 @@
 # show_always = true
 # disabled = false
 
+# format = """
+# $time$git_branch$git_status\
+# $python\
+# $c\
+# $java\
+# $lua\
+# $rust
+# $directory\
+# $character"""
+
 # }}}
 
 ## Custom format - basic
@@ -154,7 +164,8 @@ $character"""
 
 add_newline = false
 
-continuation_prompt = '[   ](black) '
+# continuation_prompt = '[   ](black) '
+continuation_prompt = '[  ](black) '
 
 # right_format = '''$time'''
 
@@ -176,7 +187,7 @@ truncate_to_repo = false
 read_only = '  '
 truncation_length = 99
 before_repo_root_style = 'bright-black'
-repo_root_style = 'underline bright-white'
+repo_root_style = 'underline green'
 repo_root_format = '[$before_root_path]($before_repo_root_style)[$repo_root]($repo_root_style)[$path]($style)[$read_only]($read_only_style) '
 
 [character]
@@ -194,7 +205,7 @@ repo_root_format = '[$before_root_path]($before_repo_root_style)[$repo_root]($re
 # error_symbol = '[\$](bold red)'
 # success_symbol = '[ ](bold green)'
 # error_symbol = '[ ](bold red)'
-success_symbol = '[ ](bold blue)'
+success_symbol = '[ ](bold green)'
 error_symbol = '[ ](bold red)'
 
 [fill]
@@ -223,7 +234,7 @@ format = '([\[$all_status$ahead_behind\]]($style) )'
 
 [git_branch]
 # style = 'blue bold'
-style = 'blue bold'
+style = 'green bold'
 format = '([$symbol$branch(:$remote_branch)]($style) )'
 
 [git_metrics]
