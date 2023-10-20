@@ -1,5 +1,5 @@
 configuration {
-modi: "window,drun,run,filebrowser,dmenu";
+modi: "drun";
 /*  width: 50;*/
 /*  lines: 15;*/
 /*  columns: 2;*/
@@ -159,4 +159,5 @@ matching: "fuzzy";
 //@theme "/home/rc/.config/rofi/mythemes/rcminimal.rasi"
 //@theme "/home/rc/.local/share/rofi/themes/rounded-gray-dark.rasi"
 //@theme "/home/rc/.local/share/rofi/themes/spotlight-dark.rasi"
-@theme "/home/rc/mydots/config/rofi/themes/spotlight-ril.rasi"
+//@theme "/home/rc/mydots/config/rofi/themes/spotlight-ril.rasi"
+@theme "/home/rc/Repos/configs-ril/rofi/themes/squared-everforest.rasi"
