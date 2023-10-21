@@ -5,43 +5,57 @@
  *******************************************************************************/
 
 * {
-    font:   "FiraCode Nerd Font Medium 12";
+    font: "MononokiNerdFont Mono 16";
 
-    bg0:     #232A2E;
-    bg1:     #343F44;
-    fg0:     #D3C6AA;
+    bg0:       #232A2E;
+    bg0-trans: #232A2Ef0;
+    bg1:       #2D353B;
 
-    accent-color:     #83C092;
-    urgent-color:     #DBBC7F;
+    fg0: #D3C6AA;
+    fg1: #9DA9A0aa;
+    fg2: #9DA9A022;
 
-    background-color:   transparent;
+    accent-color:       #83C092;
+    accent-trans-color: #83C0926b;
+    urgent-color:       #DBBC7F;
+
+    background-color:   #FFFFFF00;
     text-color:         @fg0;
 
-    margin:     0;
-    padding:    0;
-    spacing:    0;
+    margin:  0;
+    padding: 0;
+    spacing: 0;
 }
 
 window {
-    location:   center;
-    width:      480;
-
-    background-color:   @bg0;
+    y-offset:         240px;
+    location:         north;
+    width:            960px;
+    background-color: @bg0-trans;
 }
 
 inputbar {
-    spacing:    8px; 
-    padding:    8px;
+    spacing:    8px;
+    padding:    0px;
 
-    background-color:   @bg1;
+    border: 2px;
+    border-color: @accent-color;
+
+    background-color: @bg1;
+
+    children: [entry];
 }
 
-prompt, entry, element-icon, element-text {
+entry, element-icon, element-text {
     vertical-align: 0.5;
 }
 
-prompt {
-    text-color: @accent-color;
+entry {
+    padding:          10px 8px;
+    horizontal-align: 0.5;
+    placeholder:      "";
+    placeholder-color: @accent-trans-color;
+    font: "MononokiNerdFont 16";
 }
 
 textbox {
@@ -51,10 +65,11 @@ textbox {
 
 listview {
     padding:    4px 0;
-    lines:      8;
+    lines:      10;
     columns:    1;
 
     fixed-height:   false;
+    require-input:  true;
 }
 
 element {
@@ -71,7 +86,7 @@ element normal urgent {
 }
 
 element normal active {
-    text-color: @accent-color;
+    text-color: @bg0;
 }
 
 element selected {
@@ -79,7 +94,9 @@ element selected {
 }
 
 element selected normal, element selected active {
-    background-color:   @accent-color;
+    background-color: @fg1;
+    border:           0px 8px;
+    border-color:     @background-color;
 }
 
 element selected urgent {
@@ -91,6 +108,11 @@ element-icon {
 }
 
 element-text {
-    text-color: inherit;
+    text-color: @fg1;
+    font:   "MononokiNerdFont Mono 14";
+}
+
+element-text selected {
+    text-color: @bg0;
 }
 
