@@ -153,16 +153,12 @@
 
 ## Custom format - basic
 format = """
-[┌](bright-black) $username$directory\
-$python\
-$c\
-$java\
-$lua\
-$rust
-[└](bright-black) $time$git_branch$git_status [─](bright-black) \
+$git_branch\
+$username$directory\
+$python$c$java$lua$rust\
 $character"""
 
-add_newline = false
+add_newline = true
 
 # continuation_prompt = '[   ](black) '
 continuation_prompt = '[  󰮺 󰮺 󰮺](black) '
@@ -171,36 +167,30 @@ continuation_prompt = '[  󰮺 󰮺 󰮺](black) '
 
 ## Modules
 [directory]
-style = 'bright-white'
+style = 'white'
 # home_symbol = ' RC'
 home_symbol = ''
 # format = ''
 truncate_to_repo = false
 read_only = '  '
-truncation_length = 99
-before_repo_root_style = 'black'
+truncation_length = 5
+before_repo_root_style = 'bright-white'
 repo_root_style = 'underline blue'
-repo_root_format = '[$before_root_path]($before_repo_root_style)[$repo_root]($repo_root_style)[$path]($style)[$read_only]($read_only_style) '
+repo_root_format = '[$before_root_path]($before_repo_root_style)[$repo_root]($repo_root_style)[$path]($style)[$read_only]($read_only_style)'
 
 [character]
-# success_symbol = '[⟩](bold cyan)'
-# error_symbol = '[⟩](bold red)'
-# success_symbol = '[➜ ](bold cyan)'
-# error_symbol = '[➜ ](bold red)'
-success_symbol = '[󰮺❱](bold cyan)'
-error_symbol = '[󰮺❱](bold red)'
-# success_symbol = '[](bold green)'
-# error_symbol = '[](bold red)'
-# success_symbol = '[ ](bold cyan)'
-# error_symbol = '[ ](bold red)'
-# success_symbol = '[ ](bold green)'
-# error_symbol = '[ ](bold red)'
+# success_symbol = '[󰮺❱](bold cyan)'
+# error_symbol = '[󰮺❱](bold red)'
+# success_symbol = '[](bold cyan)'
+# error_symbol = '[](bold red)'
+success_symbol = '[](bold cyan)'
+error_symbol = '[](bold red)'
 
 [fill]
 symbol = ' '
 
 [time]
-disabled = false
+disabled = true
 style = 'white'
 time_format = '%I:%M'
 # format = '[ $time]($style)'
@@ -214,16 +204,24 @@ show_always = true
 disabled = false
 
 [git_status]
-ahead = '⇡${count}'
-diverged = '⇕⇡${ahead_count}⇣${behind_count}'
-behind = '⇣${count}'
+conflicted = '='
+ahead = '⇡'
+behind = '⇣'
+diverged = '⇕'
+up_to_date = ''
+untracked = '?'
+stashed = '$'
+modified = '󱈸'
+staged = '+'
+renamed = '»'
+deleted = '✘'
 style = 'yellow'
-format = '( [\[$all_status$ahead_behind\]]($style))'
+format = '([|](black)[$all_status$ahead_behind]($style))[|](black) '
 
 [git_branch]
-# style = 'blue bold'
 style = 'blue bold'
-format = ' [─](bright-black) ([$branch(:$remote_branch)]($style))'
+format = '[$symbol]($style)'
+# format = '([$symbol]($style))'
 
 [git_metrics]
 disabled = false
@@ -231,7 +229,7 @@ format = '([\(](bright-white)[+$added]($added_style)[/](bright-white)[-$deleted]
 
 [cmd_duration]
 show_milliseconds = false
-format = '[󰔚 ](purple)[$duration](bright-white)'
+format = '[󰔚](purple)[$duration](bright-white)'
 min_time = 1000
 
 [shell]
@@ -240,9 +238,9 @@ style = 'bright-white'
 
 # languages
 [python]
-symbol = '[ ](blue)'
+symbol = '[](bright-white)'
 style = 'bright-white'
-format = '(bright-white)[ 󰮺 ](bright-white)[${symbol}${pyenv_prefix}${version}(\($virtualenv\))]($style) '
+format = '[${symbol}${pyenv_prefix}(\($virtualenv\))]($style) '
 detect_files = ['.python-version', 
                   'Pipfile', 
                   '__init__.py', 
@@ -255,22 +253,22 @@ detect_files = ['.python-version',
 # detect_folders = ['']
 
 [lua]
-symbol = '[󰢱 ](cyan)'
+symbol = '[󰢱](bright-white)'
 style = 'bright-white'
 # format = '[via ](bright-white)[${symbol}${version}]($style) '
-format = '(bright-white)[${symbol}${version}]($style) '
+format = '(bright-white)[${symbol}]($style) '
 
 [c]
-symbol = '[ ](purple)'
+symbol = '[](bright-white)'
 style = 'bright-white'
-format = '[via ](bright-white)[${symbol}${version}]($style) '
+format = '(bright-white)[${symbol}]($style) '
 
 [java]
-symbol = '[ ](red)'
+symbol = '[](bright-white)'
 style = 'bright-white'
-format = '[via ](bright-white)[${symbol}${version}]($style) '
+format = '(bright-white)[${symbol}]($style) '
 
 [rust]
-symbol = '[󱘗 ](yellow)'
+symbol = '[󱘗](bright-white)'
 style = 'bright-white'
-format = '[via ](bright-white)[${symbol}${version}]($style) '
+format = '(bright-white)[${symbol}]($style) '

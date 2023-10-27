@@ -1,0 +1,72 @@
+
+    prin "${gray}┗━\n ${cl_1} ${cl8} ${cl1} ${cl9} ${cl2} ${cl10} ${cl3} ${cl11} ${cl4} ${cl12} ${cl5} ${cl13} ${cl6} ${cl14} ${cl7} ${cl15} ${gray}━┛"
+
+# From neofetch
+to_ascii() {
+    err "$1"
+    image_backend="ascii"
+    print_ascii
+
+    # Set cursor position next image/ascii.
+    printf '\e[%sA\e[9999999D' "${lines:-0}"
+}
+
+print_ascii() {
+    if [[ -f "$image_source" && ! "$image_source" =~ (png|jpg|jpeg|jpe|svg|gif) ]]; then
+        ascii_data="$(< "$image_source")"
+    elif [[ "$image_source" == "ascii" || $image_source == auto ]]; then
+        :
+    else
+        ascii_data="$image_source"
+    fi
+
+    # Set locale to get correct padding.
+    LC_ALL="$sys_locale"
+
+    # Calculate size of ascii file in line length / line count.
+    while IFS=$'\n' read -r line; do
+        line=${line//\\\\/\\}
+        line=${line//█/ }
+        ((++lines,${#line}>ascii_len)) && ascii_len="${#line}"
+    done <<< "${ascii_data//\$\{??\}}"
+
+    # Fallback if file not found.
+    ((lines==1)) && { lines=; ascii_len=; image_source=auto; get_distro_ascii; print_ascii; return; }
+
+    # Colors.
+    ascii_data="${ascii_data//\$\{c1\}/$c1}"
+    ascii_data="${ascii_data//\$\{c2\}/$c2}"
+    ascii_data="${ascii_data//\$\{c3\}/$c3}"
+    ascii_data="${ascii_data//\$\{c4\}/$c4}"
+    ascii_data="${ascii_data//\$\{c5\}/$c5}"
+    ascii_data="${ascii_data//\$\{c6\}/$c6}"
+
+    ((text_padding=ascii_len+gap))
+    printf '%b\n' "$ascii_data${reset}"
+    LC_ALL=C
+}
+
+get_image_source() {
+    case $image_source in
+        "auto" | "wall" | "wallpaper")
+            get_wallpaper
+        ;;
+
+        *)
+            # Get the absolute path.
+            image_source="$(get_full_path "$image_source")"
+
+            if [[ -d "$image_source" ]]; then
+                shopt -s nullglob
+                files=("${image_source%/}"/*.{png,jpg,jpeg,jpe,gif,svg})
+                shopt -u nullglob
+                image="${files[RANDOM % ${#files[@]}]}"
+
+            else
+                image="$image_source"
+            fi
+        ;;
+    esac
+
+    err "Image: Using image '$image'"
+}
