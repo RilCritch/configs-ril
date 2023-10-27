@@ -153,75 +153,63 @@
 
 ## Custom format - basic
 format = """
-$time$git_branch$git_status\
+[┌](bright-black) $username$directory\
 $python\
 $c\
 $java\
 $lua\
 $rust
-$directory\
+[└](bright-black) $time$git_branch$git_status [─](bright-black) \
 $character"""
 
 add_newline = false
 
 # continuation_prompt = '[   ](black) '
-continuation_prompt = '[  ](black) '
+continuation_prompt = '[  󰮺 󰮺 󰮺](black) '
 
 # right_format = '''$time'''
 
 ## Modules
 [directory]
 style = 'bright-white'
-# home_symbol = '󰜥 '
-# home_symbol = 'rc'
-# home_symbol = ' '
-# home_symbol = '󱑽 '
-# home_symbol = '󰼮 '
-# home_symbol = '󰞍 '
-# home_symbol = 'rilliam'
-# home_symbol = '$HOME'
-# home_symbol = ' '
-home_symbol = ' RC'
+# home_symbol = ' RC'
+home_symbol = ''
 # format = ''
 truncate_to_repo = false
 read_only = '  '
 truncation_length = 99
-before_repo_root_style = 'bright-black'
-repo_root_style = 'underline green'
+before_repo_root_style = 'black'
+repo_root_style = 'underline blue'
 repo_root_format = '[$before_root_path]($before_repo_root_style)[$repo_root]($repo_root_style)[$path]($style)[$read_only]($read_only_style) '
 
 [character]
-# success_symbol = '[❯](bold green)'
-# error_symbol = '[❯](bold red)'
+# success_symbol = '[⟩](bold cyan)'
+# error_symbol = '[⟩](bold red)'
+# success_symbol = '[➜ ](bold cyan)'
+# error_symbol = '[➜ ](bold red)'
+success_symbol = '[󰮺❱](bold cyan)'
+error_symbol = '[󰮺❱](bold red)'
 # success_symbol = '[](bold green)'
 # error_symbol = '[](bold red)'
-# success_symbol = '[ ](bold green)'
-# error_symbol = '[ ](bold red)'
-# success_symbol = '[󰋇 ](green)'
-# error_symbol = '[󰋇 ](red)'
-# success_symbol = '[ ](bold green)'
+# success_symbol = '[ ](bold cyan)'
 # error_symbol = '[ ](bold red)'
-# success_symbol = '[\$](bold green)'
-# error_symbol = '[\$](bold red)'
-# success_symbol = '[ ](bold green)'
-# error_symbol = '[ ](bold red)'
-success_symbol = '[ ](bold green)'
-error_symbol = '[ ](bold red)'
+# success_symbol = '[ ](bold green)'
+# error_symbol = '[ ](bold red)'
 
 [fill]
 symbol = ' '
 
 [time]
 disabled = false
-style = 'bright-white'
+style = 'white'
 time_format = '%I:%M'
 # format = '[ $time]($style)'
-format = '[$time]($style) '
+format = '[$time]($style)'
 use_12hr = true
 
 [username]
-style_user = 'blue'
-format = '[ $user]($style) '
+style_user = 'cyan'
+format = '[]($style) '
 show_always = true
 disabled = false
 
@@ -229,13 +217,13 @@ disabled = false
 ahead = '⇡${count}'
 diverged = '⇕⇡${ahead_count}⇣${behind_count}'
 behind = '⇣${count}'
-style = 'bold red'
-format = '([\[$all_status$ahead_behind\]]($style) )'
+style = 'yellow'
+format = '( [\[$all_status$ahead_behind\]]($style))'
 
 [git_branch]
 # style = 'blue bold'
-style = 'green bold'
-format = '([$symbol$branch(:$remote_branch)]($style) )'
+style = 'blue bold'
+format = ' [─](bright-black) ([$branch(:$remote_branch)]($style))'
 
 [git_metrics]
 disabled = false
@@ -254,7 +242,7 @@ style = 'bright-white'
 [python]
 symbol = '[ ](blue)'
 style = 'bright-white'
-format = '(bright-white)[${symbol}${pyenv_prefix}${version}(\($virtualenv\))]($style) '
+format = '(bright-white)[ 󰮺 ](bright-white)[${symbol}${pyenv_prefix}${version}(\($virtualenv\))]($style) '
 detect_files = ['.python-version', 
                   'Pipfile', 
                   '__init__.py', 
