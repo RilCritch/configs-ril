@@ -87,102 +87,34 @@
 # $shell\
 # $character"""
 
-#format = '''
-#[RC](white)[ ∶ ](yellow)$directory$rust$package
-#[┌───────────────────────────────────────────────────────────────────────────────────────▶](yellow)
-#[└▶](yellow) '''
-
-# format = '''
-# $username [in](italic bright-white) $directory$rust$package$git_status$cmd_duration
-# $character '''
-
-# format = '''
-# $username [→](italic bright-white) $directory$git_status$cmd_duration[←](italic bright-white)
-# $character'''
-
-# format = '''
-# $time [|](bold bright-white) $directory$git_status$cmd_duration
-# $username $character''' 
-
-## Custom format - basic with git metrics one line
-# format = """
-# $username\
-# $git_metrics\
-# $git_status\
-# $git_branch\
-# $directory\
-# $python\
-# $c\
-# $java\
-# $lua\
-# $rust\
-# $character"""
-
-## with user module
-# format = '''
-# $username [󱦰](bright-white) $directory$git_status$git_branch$cmd_duration
-# $time $character'''
-
-## modules
-# [line_break]
-# disabled = true
-# Disable the blank line at the start of the prompt
-# add_newline = false
-
-# [character]
-# success_symbol = '[󰭓](green)'
-# error_symbol = '[󰭓](red)'
-
-# [username]
-# style_user = 'yellow'
-# format = '[ $user]($style)'
-# show_always = true
-# disabled = false
-
-# format = """
-# $time$git_branch$git_status\
-# $python\
-# $c\
-# $java\
-# $lua\
-# $rust
-# $directory\
-# $character"""
-
 # }}}
 
 ## Custom format - basic
 format = """
-$git_branch\
-$username$directory\
+$git_status\
+$directory\
 $python$c$java$lua$rust\
 $character"""
 
 add_newline = true
 
-# continuation_prompt = '[   ](black) '
-continuation_prompt = '[  󰮺 󰮺 󰮺](black) '
+continuation_prompt = '[󰮺 󰮺 󰮺](black) '
 
-# right_format = '''$time'''
 
 ## Modules
 [directory]
 style = 'white'
-# home_symbol = ' RC'
-home_symbol = ''
-# format = ''
-truncate_to_repo = false
-read_only = '  '
-truncation_length = 5
+read_only = ' '
+read_only_style = 'bright-red'
+truncation_length = 4
+truncate_to_repo = true
+fish_style_pwd_dir_length = 1
+format = '[$read_only]($read_only_style)[$path]($style) '
 before_repo_root_style = 'bright-white'
-repo_root_style = 'underline blue'
-repo_root_format = '[$before_root_path]($before_repo_root_style)[$repo_root]($repo_root_style)[$path]($style)[$read_only]($read_only_style)'
+# repo_root_style = 'underline blue'
+repo_root_format = '[$read_only]($read_only_style)[$before_root_path]($before_repo_root_style)[$repo_root]($repo_root_style)[$path]($style) '
 
 [character]
-# success_symbol = '[󰮺❱](bold cyan)'
-# error_symbol = '[󰮺❱](bold red)'
-# success_symbol = '[](bold cyan)'
-# error_symbol = '[](bold red)'
 success_symbol = '[](bold cyan)'
 error_symbol = '[](bold red)'
 
@@ -198,8 +130,10 @@ format = '[$time]($style)'
 use_12hr = true
 
 [username]
-style_user = 'cyan'
-format = '[]($style) '
+style_user = 'fg:cyan'
+format = '[RC]($style)[](bright-black) '
+# style_user = 'fg:#232A2E bg:cyan bold'
+# format = '[ 󰣇 ]($style)[](cyan) '
 show_always = true
 disabled = false
 
@@ -216,7 +150,7 @@ staged = '+'
 renamed = '»'
 deleted = '✘'
 style = 'yellow'
-format = '([|](black)[$all_status$ahead_behind]($style))[|](black) '
+format = '[](blue)([\[](bright-black)[$all_status$ahead_behind]($style)[\]](bright-black)) '
 
 [git_branch]
 style = 'blue bold'
