@@ -91,86 +91,49 @@
 
 ## Custom format - basic
 format = """
-$git_status\
+${custom.git_dir}\
 $directory\
 $python$c$java$lua$rust\
 $character"""
 
 add_newline = true
 
+# command_timout = 500 # Default
+# command_timeout = 500
+
 continuation_prompt = '[󰮺 󰮺 󰮺](black) '
 
+# Custom Modules
+## Git
+[custom.git_dir]
+# disabled = true
+description = "Displays name of the top level directory if inside of a git repository"
+command = "reponame.sh"
+when = "git rev-parse --is-inside-work-tree > /dev/null"
+shell = ["bash", "--noprofile", "--norc"]
+format = '[](blue)[\[](black)[$output](blue)[\]](black) '
 
-## Modules
+# Starship Modules
+## Basic
 [directory]
 style = 'white'
 read_only = ' '
 read_only_style = 'bright-red'
 truncation_length = 4
-truncate_to_repo = true
+truncate_to_repo = false
 fish_style_pwd_dir_length = 1
 format = '[$read_only]($read_only_style)[$path]($style) '
-before_repo_root_style = 'bright-white'
-# repo_root_style = 'underline blue'
-repo_root_format = '[$read_only]($read_only_style)[$before_root_path]($before_repo_root_style)[$repo_root]($repo_root_style)[$path]($style) '
 
 [character]
 success_symbol = '[](bold cyan)'
 error_symbol = '[](bold red)'
-
-[fill]
-symbol = ' '
-
-[time]
-disabled = true
-style = 'white'
-time_format = '%I:%M'
-# format = '[ $time]($style)'
-format = '[$time]($style)'
-use_12hr = true
-
-[username]
-style_user = 'fg:cyan'
-format = '[RC]($style)[](bright-black) '
-# style_user = 'fg:#232A2E bg:cyan bold'
-# format = '[ 󰣇 ]($style)[](cyan) '
-show_always = true
-disabled = false
-
-[git_status]
-conflicted = '='
-ahead = '⇡'
-behind = '⇣'
-diverged = '⇕'
-up_to_date = ''
-untracked = '?'
-stashed = '$'
-modified = '󱈸'
-staged = '+'
-renamed = '»'
-deleted = '✘'
-style = 'yellow'
-format = '[](blue)([\[](bright-black)[$all_status$ahead_behind]($style)[\]](bright-black)) '
-
-[git_branch]
-style = 'blue bold'
-format = '[$symbol]($style)'
-# format = '([$symbol]($style))'
-
-[git_metrics]
-disabled = false
-format = '([\(](bright-white)[+$added]($added_style)[/](bright-white)[-$deleted]($deleted_style)[\)](bright-white) )'
 
 [cmd_duration]
 show_milliseconds = false
 format = '[󰔚](purple)[$duration](bright-white)'
 min_time = 1000
 
-[shell]
-disabled = false
-style = 'bright-white'
-
-# languages
+## languages
 [python]
 symbol = '[](bright-white)'
 style = 'bright-white'
@@ -184,7 +147,6 @@ detect_files = ['.python-version',
                   'tox.ini',
                   'pyvenv.cfg'
 ]
-# detect_folders = ['']
 
 [lua]
 symbol = '[󰢱](bright-white)'
