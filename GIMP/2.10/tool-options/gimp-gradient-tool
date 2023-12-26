@@ -1,0 +1,16 @@
+# GIMP gimp-gradient-tool options
+
+(gradient "Untitled")
+(brush-size 51)
+(brush-hardness 0.5)
+(dynamics-expanded yes)
+(fade-length 138)
+(fade-unit percent)
+(gradient-reverse yes)
+(gradient-blend-color-space rgb-linear)
+(gradient-view-type grid)
+(gradient-view-size 57)
+(offset 54)
+(modify-active yes)
+
+# end of gimp-gradient-tool options

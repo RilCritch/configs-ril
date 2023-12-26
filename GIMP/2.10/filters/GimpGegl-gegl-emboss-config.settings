@@ -1,0 +1,12 @@
+# settings
+
+(GimpGegl-gegl-emboss-config "2023-12-07 15:24:56"
+    (time 1701984296)
+    (gimp-mode subtract)
+    (gimp-opacity 0.019999999999999865)
+    (type emboss)
+    (azimuth 169.34999999999999)
+    (elevation 27.170000000000002)
+    (depth 28))
+
+# end of settings

@@ -1,0 +1,11 @@
+# GIMP gimp-bucket-fill-tool options
+
+(pattern "Pine")
+(brush-size 51)
+(brush-hardness 0.5)
+(fill-mode bg)
+(fill-area selection)
+(diagonal-neighbors yes)
+(threshold 0)
+
+# end of gimp-bucket-fill-tool options
