@@ -92,7 +92,7 @@
 ## Custom format - basic
 format = """
 ${custom.git_dir}\
-$directory\
+$directory
 $python$c$java$lua$rust\
 $character"""
 
