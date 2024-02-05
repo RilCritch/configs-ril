@@ -96,7 +96,7 @@ $directory
 $python$c$java$lua$rust\
 $character"""
 
-add_newline = true
+add_newline = false
 
 # command_timout = 500 # Default
 # command_timeout = 500
@@ -137,7 +137,7 @@ min_time = 1000
 [python]
 symbol = '[](bright-white)'
 style = 'bright-white'
-format = '[${symbol}${pyenv_prefix}(\($virtualenv\))]($style) '
+format = '[${symbol} ${pyenv_prefix}(\($virtualenv\))]($style) '
 detect_files = ['.python-version', 
                   'Pipfile', 
                   '__init__.py', 
@@ -152,19 +152,19 @@ detect_files = ['.python-version',
 symbol = '[󰢱](bright-white)'
 style = 'bright-white'
 # format = '[via ](bright-white)[${symbol}${version}]($style) '
-format = '(bright-white)[${symbol}]($style) '
+format = '(bright-white)[${symbol}] ($style) '
 
 [c]
 symbol = '[](bright-white)'
 style = 'bright-white'
-format = '(bright-white)[${symbol}]($style) '
+format = '(bright-white)[${symbol}] ($style) '
 
 [java]
 symbol = '[](bright-white)'
 style = 'bright-white'
-format = '(bright-white)[${symbol}]($style) '
+format = '(bright-white)[${symbol}] ($style) '
 
 [rust]
 symbol = '[󱘗](bright-white)'
 style = 'bright-white'
-format = '(bright-white)[${symbol}]($style) '
+format = '(bright-white)[${symbol}] ($style) '
