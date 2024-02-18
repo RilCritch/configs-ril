@@ -1,1 +1,12 @@
 .git
+.julia
+.juliaup
+.luarocks
+.npm
+.pki
+.rustup
+.cache
+.bash_completions
+.cargo
+.gnupg
+.icons
