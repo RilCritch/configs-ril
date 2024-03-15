@@ -1,0 +1,131 @@
+/*
+ * Notes:
+ *      - border-radius values: NW NE SE SW
+ * */
+
+* {
+    font: "MononokiNerdFont Mono 16";
+
+    bg0:       #232A2E;
+    bg0-trans: #232A2Ef0;
+    bg1:       #2D353B;
+
+    fg0: #D3C6AA;
+    fg1: #9DA9A0aa;
+    fg2: #9DA9A022;
+
+    trans: #FFFFFF00;
+
+    accent-color:       #83C092;
+    accent-trans-color: #83C0926b;
+    urgent-color:       #DBBC7F;
+
+    background-color:   #FFFFFF00;
+    text-color:         @fg0;
+
+    margin:  0;
+    padding: 0;
+    spacing: 0;
+}
+
+window {
+    y-offset:         120px;
+    location:         north;
+    width:            960px;
+
+    background-color: @bg0-trans;
+    border-radius: 6px;
+}
+
+inputbar {
+    spacing:    8px;
+    padding:    0px;
+
+    border:        2px;
+    border-color:  @accent-color;
+    border-radius: 6px;
+    /*border-radius: 6px 6px 0px 0px;*/
+
+    background-color: @bg0;
+
+    children: [entry];
+}
+
+entry, element-icon, element-text {
+    vertical-align: 0.5;
+}
+
+entry {
+    padding:          10px 8px;
+    horizontal-align: 0.5;
+    placeholder:      "";
+    placeholder-color: @accent-trans-color;
+    font: "MononokiNerdFont 16";
+}
+
+/*textbox {
+    padding:            8px;
+    background-color:   @bg1;
+}*/
+
+listview {
+    margin:     0px 0 0 0;
+    padding:    4px 0;
+    lines:      5;
+    columns:    1;
+
+    fixed-height:   false;
+    require-input:  true;
+
+    background-color: @bg0-trans;
+
+    /*border: 0px 2px 2px;
+    border-radius: 0px 0px 6px 6px;
+    border-color: @accent-trans-color;*/
+}
+
+element {
+    padding:    8px;
+    spacing:    8px;
+}
+
+element normal normal {
+    text-color: @fg0;
+}
+
+element normal urgent {
+    text-color: @urgent-color;
+}
+
+element normal active {
+    text-color: @bg0;
+}
+
+element selected {
+    text-color: @bg0;
+}
+
+element selected normal, element selected active {
+    background-color: @fg1;
+    border:           0px 8px;
+    border-radius:    5px;
+    border-color:     @background-color;
+}
+
+element selected urgent {
+    background-color:   @urgent-color;
+}
+
+element-icon {
+    size:   0.8em;
+}
+
+element-text {
+    text-color: @fg1;
+    font:   "MononokiNerdFont Mono 14";
+}
+
+element-text selected {
+    text-color: @bg0;
+}
+

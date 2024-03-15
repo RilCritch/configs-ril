@@ -27,8 +27,8 @@ modi: "drun";
 /*  drun-url-launcher: "xdg-open";*/
 /*  disable-history: false;*/
 /*  ignored-prefixes: "";*/
-/*  sort: false;*/
-/*  sorting-method: "normal";*/
+sort: false;
+sorting-method: "fzf";
 no-case-sensitive: true;
 /*  cycle: true;*/
 /*  sidebar-mode: false;*/
@@ -37,7 +37,7 @@ no-case-sensitive: true;
 /*  parse-hosts: false;*/
 /*  parse-known-hosts: true;*/
 /*  combi-modi: "window,run";*/
-matching: "fuzzy";
+matching: "regex";
 /*  tokenize: true;*/
 /*  m: "-5";*/
 /*  line-margin: 2;*/
@@ -160,4 +160,5 @@ matching: "fuzzy";
 //@theme "/home/rc/.local/share/rofi/themes/rounded-gray-dark.rasi"
 //@theme "/home/rc/.local/share/rofi/themes/spotlight-dark.rasi"
 //@theme "/home/rc/mydots/config/rofi/themes/spotlight-ril.rasi"
-@theme "/home/rc/Repos/configs-ril/rofi/themes/squared-everforest.rasi"
+@theme "/home/rc/Repos/configs-ril/rofi/themes/simple-round-everforest.rasi"
+//@theme "/home/rc/Repos/configs-ril/rofi/themes/round-everforest.rasi"

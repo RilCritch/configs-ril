@@ -1,19 +1,20 @@
-/*******************************************************************************
- * ROFI SQUARED THEME USING THE EVERFOREST PALETTE 
- * User                 : LR-Tech               
- * Theme Repo           : https://github.com/lr-tech/rofi-themes-collection
- *******************************************************************************/
+/*
+ * Notes:
+ *      - border-radius values: NW NE SE SW
+ * */
 
 * {
     font: "MononokiNerdFont Mono 16";
 
-    bg0:       #232A2E;
-    bg0-trans: #232A2Ef0;
-    bg1:       #2D353B;
+    bg0:       #293136;
+    bg0-trans: #293136D0;
+    bg1:       #3D484D;
 
     fg0: #D3C6AA;
     fg1: #9DA9A0aa;
     fg2: #9DA9A022;
+
+    trans: #FFFFFF00;
 
     accent-color:       #83C092;
     accent-trans-color: #83C0926b;
@@ -28,18 +29,38 @@
 }
 
 window {
-    y-offset:         240px;
+    y-offset:         120px;
     location:         north;
     width:            960px;
+
     background-color: @bg0-trans;
+    border-radius: 6px;
+
+    children: [ vertbox ];
+}
+
+vertbox {
+    orientation: vertical;
+    //children: [ textbox-title, inputbar, listview ];
+    children: [ inputbar, listview ];
+}
+
+textbox-title {
+    content: "Run Applications";
+    vertical-align: 0.5;
+    horizontal-align: 0.5;
+    padding: -70px 0;
 }
 
 inputbar {
     spacing:    8px;
     padding:    0px;
+    margin:     6px;
 
-    border: 2px;
-    border-color: @accent-color;
+    //border:        2px;
+    //border-color:  @accent-color;
+    border-radius: 6px;
+    /*border-radius: 6px 6px 0px 0px;*/
 
     background-color: @bg1;
 
@@ -58,18 +79,20 @@ entry {
     font: "MononokiNerdFont 16";
 }
 
-textbox {
-    padding:            8px;
-    background-color:   @bg1;
-}
-
 listview {
+    margin:     0px 0 0 0;
     padding:    4px 0;
-    lines:      10;
+    lines:      5;
     columns:    1;
 
     fixed-height:   false;
     require-input:  true;
+
+    background-color: @bg0-trans;
+
+    /*border: 0px 2px 2px;
+    border-radius: 0px 0px 6px 6px;
+    border-color: @accent-trans-color;*/
 }
 
 element {
@@ -96,6 +119,7 @@ element selected {
 element selected normal, element selected active {
     background-color: @fg1;
     border:           0px 8px;
+    border-radius:    5px;
     border-color:     @background-color;
 }
 
