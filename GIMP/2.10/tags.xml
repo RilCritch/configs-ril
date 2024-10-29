@@ -808,6 +808,9 @@
   <resource identifier="Bitstream Charter Italic" checksum="(null)">
   </resource>
 
+  <resource identifier="Buttershine Serif" checksum="(null)">
+  </resource>
+
   <resource identifier="C059" checksum="(null)">
   </resource>
 
@@ -871,7 +874,37 @@
   <resource identifier="Courier Italic" checksum="(null)">
   </resource>
 
+  <resource identifier="Courier Prime" checksum="(null)">
+  </resource>
+
+  <resource identifier="Courier Prime Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Courier Prime Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Courier Prime Italic" checksum="(null)">
+  </resource>
+
   <resource identifier="D050000L" checksum="(null)">
+  </resource>
+
+  <resource identifier="D2CodingLigature Nerd Font" checksum="(null)">
+  </resource>
+
+  <resource identifier="D2CodingLigature Nerd Font Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="D2CodingLigature Nerd Font Mono" checksum="(null)">
+  </resource>
+
+  <resource identifier="D2CodingLigature Nerd Font Mono Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="D2CodingLigature Nerd Font Propo" checksum="(null)">
+  </resource>
+
+  <resource identifier="D2CodingLigature Nerd Font Propo Bold" checksum="(null)">
   </resource>
 
   <resource identifier="DejaVu Math TeX Gyre" checksum="(null)">
@@ -940,6 +973,9 @@
   <resource identifier="DejaVu Serif Semi-Condensed" checksum="(null)">
   </resource>
 
+  <resource identifier="Designer" checksum="(null)">
+  </resource>
+
   <resource identifier="Dhurjati" checksum="(null)">
   </resource>
 
@@ -947,6 +983,129 @@
   </resource>
 
   <resource identifier="Droid Sans Fallback" checksum="(null)">
+  </resource>
+
+  <resource identifier="FantasqueSansM Nerd Font" checksum="(null)">
+  </resource>
+
+  <resource identifier="FantasqueSansM Nerd Font Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="FantasqueSansM Nerd Font Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="FantasqueSansM Nerd Font Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="FantasqueSansM Nerd Font Mono" checksum="(null)">
+  </resource>
+
+  <resource identifier="FantasqueSansM Nerd Font Mono Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="FantasqueSansM Nerd Font Mono Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="FantasqueSansM Nerd Font Mono Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="FantasqueSansM Nerd Font Propo" checksum="(null)">
+  </resource>
+
+  <resource identifier="FantasqueSansM Nerd Font Propo Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="FantasqueSansM Nerd Font Propo Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="FantasqueSansM Nerd Font Propo Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Fira Code" checksum="(null)">
+  </resource>
+
+  <resource identifier="Fira Code" checksum="(null)">
+  </resource>
+
+  <resource identifier="Fira Code" checksum="(null)">
+  </resource>
+
+  <resource identifier="Fira Code Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Fira Code Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Fira Code Light" checksum="(null)">
+  </resource>
+
+  <resource identifier="Fira Code Medium" checksum="(null)">
+  </resource>
+
+  <resource identifier="Fira Code Medium" checksum="(null)">
+  </resource>
+
+  <resource identifier="FiraCode Nerd Font" checksum="(null)">
+  </resource>
+
+  <resource identifier="FiraCode Nerd Font Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="FiraCode Nerd Font Light" checksum="(null)">
+  </resource>
+
+  <resource identifier="FiraCode Nerd Font Medium" checksum="(null)">
+  </resource>
+
+  <resource identifier="FiraCode Nerd Font Mono" checksum="(null)">
+  </resource>
+
+  <resource identifier="FiraCode Nerd Font Mono Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="FiraCode Nerd Font Mono Light" checksum="(null)">
+  </resource>
+
+  <resource identifier="FiraCode Nerd Font Mono Medium" checksum="(null)">
+  </resource>
+
+  <resource identifier="FiraCode Nerd Font Mono Semi-Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="FiraCode Nerd Font Mono weight=450" checksum="(null)">
+  </resource>
+
+  <resource identifier="FiraCode Nerd Font Propo" checksum="(null)">
+  </resource>
+
+  <resource identifier="FiraCode Nerd Font Propo Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="FiraCode Nerd Font Propo Light" checksum="(null)">
+  </resource>
+
+  <resource identifier="FiraCode Nerd Font Propo Medium" checksum="(null)">
+  </resource>
+
+  <resource identifier="FiraCode Nerd Font Propo Semi-Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="FiraCode Nerd Font Propo weight=450" checksum="(null)">
+  </resource>
+
+  <resource identifier="FiraCode Nerd Font Semi-Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="FiraCode Nerd Font weight=450" checksum="(null)">
+  </resource>
+
+  <resource identifier="Fira Code Semi-Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Fira Code Semi-Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Fira Code weight=450" checksum="(null)">
   </resource>
 
   <resource identifier="FontAwesome" checksum="(null)">
@@ -995,6 +1154,9 @@
   </resource>
 
   <resource identifier="Gidugu" checksum="(null)">
+  </resource>
+
+  <resource identifier="GLYPHICONS Halflings" checksum="(null)">
   </resource>
 
   <resource identifier="Gubbi" checksum="(null)">
@@ -1163,6 +1325,249 @@
   </resource>
 
   <resource identifier="Hasklug Nerd Font Ultra-Light Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Nerd Font" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Nerd Font Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Nerd Font Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Nerd Font Bold Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Nerd Font Heavy" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Nerd Font Heavy Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Nerd Font Heavy Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Nerd Font Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Nerd Font Light" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Nerd Font Light Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Nerd Font Light Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Nerd Font Medium" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Nerd Font Medium Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Nerd Font Medium Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Nerd Font Mono" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Nerd Font Mono Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Nerd Font Mono Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Nerd Font Mono Bold Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Nerd Font Mono Heavy" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Nerd Font Mono Heavy Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Nerd Font Mono Heavy Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Nerd Font Mono Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Nerd Font Mono Light" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Nerd Font Mono Light Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Nerd Font Mono Light Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Nerd Font Mono Medium" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Nerd Font Mono Medium Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Nerd Font Mono Medium Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Nerd Font Mono Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Nerd Font Mono Semi-Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Nerd Font Mono Semi-Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Nerd Font Mono Semi-Bold Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Nerd Font Mono Thin" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Nerd Font Mono Thin Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Nerd Font Mono Thin Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Nerd Font Mono Ultra-Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Nerd Font Mono Ultra-Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Nerd Font Mono Ultra-Bold Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Nerd Font Mono Ultra-Light" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Nerd Font Mono Ultra-Light Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Nerd Font Mono Ultra-Light Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Nerd Font Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Nerd Font Propo" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Nerd Font Propo Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Nerd Font Propo Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Nerd Font Propo Bold Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Nerd Font Propo Heavy" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Nerd Font Propo Heavy Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Nerd Font Propo Heavy Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Nerd Font Propo Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Nerd Font Propo Light" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Nerd Font Propo Light Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Nerd Font Propo Light Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Nerd Font Propo Medium" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Nerd Font Propo Medium Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Nerd Font Propo Medium Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Nerd Font Propo Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Nerd Font Propo Semi-Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Nerd Font Propo Semi-Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Nerd Font Propo Semi-Bold Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Nerd Font Propo Thin" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Nerd Font Propo Thin Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Nerd Font Propo Thin Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Nerd Font Propo Ultra-Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Nerd Font Propo Ultra-Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Nerd Font Propo Ultra-Bold Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Nerd Font Propo Ultra-Light" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Nerd Font Propo Ultra-Light Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Nerd Font Propo Ultra-Light Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Nerd Font Semi-Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Nerd Font Semi-Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Nerd Font Semi-Bold Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Nerd Font Thin" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Nerd Font Thin Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Nerd Font Thin Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Nerd Font Ultra-Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Nerd Font Ultra-Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Nerd Font Ultra-Bold Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Nerd Font Ultra-Light" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Nerd Font Ultra-Light Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Nerd Font Ultra-Light Oblique" checksum="(null)">
   </resource>
 
   <resource identifier="Jamrul Medium Semi-Expanded" checksum="(null)">
@@ -1460,6 +1865,45 @@
   </resource>
 
   <resource identifier="Kalimati" checksum="(null)">
+  </resource>
+
+  <resource identifier="Kiwi Maru" checksum="(null)">
+  </resource>
+
+  <resource identifier="Kiwi Maru Light" checksum="(null)">
+  </resource>
+
+  <resource identifier="Kiwi Maru Medium" checksum="(null)">
+  </resource>
+
+  <resource identifier="Kreon" checksum="(null)">
+  </resource>
+
+  <resource identifier="Kreon" checksum="(null)">
+  </resource>
+
+  <resource identifier="Kreon" checksum="(null)">
+  </resource>
+
+  <resource identifier="Kreon Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Kreon Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Kreon Light" checksum="(null)">
+  </resource>
+
+  <resource identifier="Kreon Medium" checksum="(null)">
+  </resource>
+
+  <resource identifier="Kreon Medium" checksum="(null)">
+  </resource>
+
+  <resource identifier="Kreon Semi-Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Kreon Semi-Bold" checksum="(null)">
   </resource>
 
   <resource identifier="LakkiReddy" checksum="(null)">
@@ -1858,6 +2302,57 @@
   <resource identifier="Lohit Telugu" checksum="(null)">
   </resource>
 
+  <resource identifier="MADE Carving Soft Outline PERSONAL USE" checksum="(null)">
+  </resource>
+
+  <resource identifier="MADE Carving Soft Outline PERSONAL USE Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="MADE Carving Soft Outline PERSONAL USE Heavy" checksum="(null)">
+  </resource>
+
+  <resource identifier="MADE Carving Soft Outline PERSONAL USE Light" checksum="(null)">
+  </resource>
+
+  <resource identifier="MADE Carving Soft Outline PERSONAL USE Medium" checksum="(null)">
+  </resource>
+
+  <resource identifier="MADE Carving Soft Outline PERSONAL USE Semi-Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="MADE Carving Soft Outline PERSONAL USE Thin" checksum="(null)">
+  </resource>
+
+  <resource identifier="MADE Carving Soft Outline PERSONAL USE Ultra-Light" checksum="(null)">
+  </resource>
+
+  <resource identifier="MADE Carving Soft PERSONAL USE" checksum="(null)">
+  </resource>
+
+  <resource identifier="MADE Carving Soft PERSONAL USE Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="MADE Carving Soft PERSONAL USE Heavy" checksum="(null)">
+  </resource>
+
+  <resource identifier="MADE Carving Soft PERSONAL USE Light" checksum="(null)">
+  </resource>
+
+  <resource identifier="MADE Carving Soft PERSONAL USE Medium" checksum="(null)">
+  </resource>
+
+  <resource identifier="MADE Carving Soft PERSONAL USE Semi-Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="MADE Carving Soft PERSONAL USE Thin" checksum="(null)">
+  </resource>
+
+  <resource identifier="MADE Carving Soft PERSONAL USE Ultra-Light" checksum="(null)">
+  </resource>
+
+  <resource identifier="Magneto Bold Semi-Expanded" checksum="(null)">
+  </resource>
+
   <resource identifier="Mallanna" checksum="(null)">
   </resource>
 
@@ -2153,6 +2648,1281 @@
   </resource>
 
   <resource identifier="Mitra" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Argon" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Argon Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Argon Bold Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Argon Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Argon Bold Italic Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Argon Bold Italic Semi-Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Argon Bold Semi-Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Argon Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Argon Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Argon Italic Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Argon Italic Semi-Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Argon Light" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Argon Light Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Argon Light Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Argon Light Italic Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Argon Light Italic Semi-Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Argon Light Semi-Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Argon Medium" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Argon Medium Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Argon Medium Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Argon Medium Italic Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Argon Medium Italic Semi-Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Argon Medium Semi-Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Argon Semi-Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Argon Semi-Bold Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Argon Semi-Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Argon Semi-Bold Italic Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Argon Semi-Bold Italic Semi-Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Argon Semi-Bold Semi-Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Argon Semi-Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Argon Ultra-Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Argon Ultra-Bold Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Argon Ultra-Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Argon Ultra-Bold Italic Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Argon Ultra-Bold Italic Semi-Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Argon Ultra-Bold Semi-Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Argon Ultra-Light" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Argon Ultra-Light Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Argon Ultra-Light Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Argon Ultra-Light Italic Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Argon Ultra-Light Italic Semi-Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Argon Ultra-Light Semi-Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Argon Var" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Argon Var" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Argon Var" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Argon Var Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Argon Var Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Argon Var Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Argon Var Italic Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Argon Var Semi-Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Argon Var Semi-Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Argon Var Semi-Bold Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Argon Var Semi-Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Argon Var Semi-Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Argon Var Semi-Bold Italic Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Argon Var Ultra-Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Argon Var Ultra-Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Argon Var Ultra-Bold Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Argon Var Ultra-Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Argon Var Ultra-Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Argon Var Ultra-Bold Italic Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Argon Var Ultra-Heavy" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Argon Var Ultra-Heavy" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Argon Var Ultra-Heavy" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Argon Var Ultra-Heavy" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Argon Var Ultra-Heavy" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Argon Var Ultra-Heavy" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Argon Var Ultra-Heavy" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Argon Var Ultra-Heavy" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Argon Var Ultra-Heavy Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Argon Var Ultra-Heavy Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Argon Var Ultra-Heavy Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Argon Var Ultra-Heavy Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Argon Var Ultra-Heavy Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Argon Var Ultra-Heavy Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Argon Var Ultra-Heavy Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Argon Var Ultra-Heavy Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Argon Var Ultra-Heavy Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Argon Var Ultra-Heavy Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Argon Var Ultra-Heavy Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Argon Var Ultra-Heavy Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Argon Var Ultra-Heavy Italic Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Argon Var Ultra-Heavy Italic Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Argon Var Ultra-Heavy Italic Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Argon Var Ultra-Heavy Italic Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Krypton" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Krypton Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Krypton Bold Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Krypton Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Krypton Bold Italic Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Krypton Bold Italic Semi-Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Krypton Bold Semi-Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Krypton Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Krypton Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Krypton Italic Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Krypton Italic Semi-Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Krypton Light" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Krypton Light Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Krypton Light Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Krypton Light Italic Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Krypton Light Italic Semi-Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Krypton Light Semi-Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Krypton Medium" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Krypton Medium Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Krypton Medium Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Krypton Medium Italic Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Krypton Medium Italic Semi-Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Krypton Medium Semi-Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Krypton Semi-Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Krypton Semi-Bold Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Krypton Semi-Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Krypton Semi-Bold Italic Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Krypton Semi-Bold Italic Semi-Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Krypton Semi-Bold Semi-Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Krypton Semi-Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Krypton Ultra-Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Krypton Ultra-Bold Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Krypton Ultra-Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Krypton Ultra-Bold Italic Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Krypton Ultra-Bold Italic Semi-Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Krypton Ultra-Bold Semi-Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Krypton Ultra-Light" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Krypton Ultra-Light Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Krypton Ultra-Light Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Krypton Ultra-Light Italic Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Krypton Ultra-Light Italic Semi-Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Krypton Ultra-Light Semi-Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Krypton Var" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Krypton Var" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Krypton Var" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Krypton Var Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Krypton Var Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Krypton Var Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Krypton Var Italic Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Krypton Var Semi-Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Krypton Var Semi-Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Krypton Var Semi-Bold Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Krypton Var Semi-Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Krypton Var Semi-Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Krypton Var Semi-Bold Italic Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Krypton Var Ultra-Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Krypton Var Ultra-Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Krypton Var Ultra-Bold Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Krypton Var Ultra-Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Krypton Var Ultra-Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Krypton Var Ultra-Bold Italic Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Krypton Var Ultra-Heavy" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Krypton Var Ultra-Heavy" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Krypton Var Ultra-Heavy" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Krypton Var Ultra-Heavy" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Krypton Var Ultra-Heavy" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Krypton Var Ultra-Heavy" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Krypton Var Ultra-Heavy" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Krypton Var Ultra-Heavy" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Krypton Var Ultra-Heavy Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Krypton Var Ultra-Heavy Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Krypton Var Ultra-Heavy Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Krypton Var Ultra-Heavy Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Krypton Var Ultra-Heavy Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Krypton Var Ultra-Heavy Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Krypton Var Ultra-Heavy Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Krypton Var Ultra-Heavy Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Krypton Var Ultra-Heavy Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Krypton Var Ultra-Heavy Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Krypton Var Ultra-Heavy Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Krypton Var Ultra-Heavy Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Krypton Var Ultra-Heavy Italic Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Krypton Var Ultra-Heavy Italic Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Krypton Var Ultra-Heavy Italic Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Krypton Var Ultra-Heavy Italic Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Neon" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Neon Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Neon Bold Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Neon Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Neon Bold Italic Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Neon Bold Italic Semi-Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Neon Bold Semi-Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Neon Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Neon Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Neon Italic Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Neon Italic Semi-Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Neon Light" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Neon Light Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Neon Light Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Neon Light Italic Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Neon Light Italic Semi-Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Neon Light Semi-Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Neon Medium" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Neon Medium Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Neon Medium Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Neon Medium Italic Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Neon Medium Italic Semi-Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Neon Medium Semi-Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Neon Semi-Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Neon Semi-Bold Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Neon Semi-Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Neon Semi-Bold Italic Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Neon Semi-Bold Italic Semi-Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Neon Semi-Bold Semi-Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Neon Semi-Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Neon Ultra-Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Neon Ultra-Bold Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Neon Ultra-Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Neon Ultra-Bold Italic Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Neon Ultra-Bold Italic Semi-Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Neon Ultra-Bold Semi-Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Neon Ultra-Light" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Neon Ultra-Light Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Neon Ultra-Light Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Neon Ultra-Light Italic Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Neon Ultra-Light Italic Semi-Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Neon Ultra-Light Semi-Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Neon Var" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Neon Var" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Neon Var" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Neon Var Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Neon Var Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Neon Var Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Neon Var Italic Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Neon Var Semi-Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Neon Var Semi-Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Neon Var Semi-Bold Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Neon Var Semi-Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Neon Var Semi-Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Neon Var Semi-Bold Italic Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Neon Var Ultra-Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Neon Var Ultra-Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Neon Var Ultra-Bold Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Neon Var Ultra-Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Neon Var Ultra-Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Neon Var Ultra-Bold Italic Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Neon Var Ultra-Heavy" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Neon Var Ultra-Heavy" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Neon Var Ultra-Heavy" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Neon Var Ultra-Heavy" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Neon Var Ultra-Heavy" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Neon Var Ultra-Heavy" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Neon Var Ultra-Heavy" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Neon Var Ultra-Heavy" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Neon Var Ultra-Heavy Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Neon Var Ultra-Heavy Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Neon Var Ultra-Heavy Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Neon Var Ultra-Heavy Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Neon Var Ultra-Heavy Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Neon Var Ultra-Heavy Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Neon Var Ultra-Heavy Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Neon Var Ultra-Heavy Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Neon Var Ultra-Heavy Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Neon Var Ultra-Heavy Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Neon Var Ultra-Heavy Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Neon Var Ultra-Heavy Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Neon Var Ultra-Heavy Italic Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Neon Var Ultra-Heavy Italic Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Neon Var Ultra-Heavy Italic Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Neon Var Ultra-Heavy Italic Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Radon" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Radon Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Radon Bold Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Radon Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Radon Bold Italic Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Radon Bold Italic Semi-Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Radon Bold Semi-Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Radon Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Radon Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Radon Italic Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Radon Italic Semi-Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Radon Light" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Radon Light Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Radon Light Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Radon Light Italic Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Radon Light Italic Semi-Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Radon Light Semi-Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Radon Medium" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Radon Medium Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Radon Medium Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Radon Medium Italic Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Radon Medium Italic Semi-Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Radon Medium Semi-Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Radon Semi-Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Radon Semi-Bold Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Radon Semi-Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Radon Semi-Bold Italic Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Radon Semi-Bold Italic Semi-Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Radon Semi-Bold Semi-Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Radon Semi-Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Radon Ultra-Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Radon Ultra-Bold Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Radon Ultra-Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Radon Ultra-Bold Italic Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Radon Ultra-Bold Italic Semi-Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Radon Ultra-Bold Semi-Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Radon Ultra-Light" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Radon Ultra-Light Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Radon Ultra-Light Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Radon Ultra-Light Italic Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Radon Ultra-Light Italic Semi-Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Radon Ultra-Light Semi-Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Radon Var" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Radon Var" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Radon Var" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Radon Var Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Radon Var Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Radon Var Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Radon Var Italic Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Radon Var Semi-Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Radon Var Semi-Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Radon Var Semi-Bold Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Radon Var Semi-Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Radon Var Semi-Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Radon Var Semi-Bold Italic Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Radon Var Ultra-Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Radon Var Ultra-Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Radon Var Ultra-Bold Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Radon Var Ultra-Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Radon Var Ultra-Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Radon Var Ultra-Bold Italic Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Radon Var Ultra-Heavy" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Radon Var Ultra-Heavy" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Radon Var Ultra-Heavy" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Radon Var Ultra-Heavy" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Radon Var Ultra-Heavy" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Radon Var Ultra-Heavy" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Radon Var Ultra-Heavy" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Radon Var Ultra-Heavy" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Radon Var Ultra-Heavy Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Radon Var Ultra-Heavy Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Radon Var Ultra-Heavy Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Radon Var Ultra-Heavy Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Radon Var Ultra-Heavy Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Radon Var Ultra-Heavy Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Radon Var Ultra-Heavy Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Radon Var Ultra-Heavy Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Radon Var Ultra-Heavy Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Radon Var Ultra-Heavy Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Radon Var Ultra-Heavy Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Radon Var Ultra-Heavy Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Radon Var Ultra-Heavy Italic Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Radon Var Ultra-Heavy Italic Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Radon Var Ultra-Heavy Italic Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Radon Var Ultra-Heavy Italic Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Xenon" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Xenon Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Xenon Bold Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Xenon Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Xenon Bold Italic Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Xenon Bold Italic Semi-Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Xenon Bold Semi-Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Xenon Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Xenon Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Xenon Italic Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Xenon Italic Semi-Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Xenon Light" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Xenon Light Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Xenon Light Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Xenon Light Italic Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Xenon Light Italic Semi-Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Xenon Light Semi-Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Xenon Medium" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Xenon Medium Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Xenon Medium Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Xenon Medium Italic Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Xenon Medium Italic Semi-Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Xenon Medium Semi-Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Xenon Semi-Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Xenon Semi-Bold Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Xenon Semi-Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Xenon Semi-Bold Italic Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Xenon Semi-Bold Italic Semi-Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Xenon Semi-Bold Semi-Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Xenon Semi-Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Xenon Ultra-Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Xenon Ultra-Bold Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Xenon Ultra-Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Xenon Ultra-Bold Italic Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Xenon Ultra-Bold Italic Semi-Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Xenon Ultra-Bold Semi-Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Xenon Ultra-Light" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Xenon Ultra-Light Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Xenon Ultra-Light Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Xenon Ultra-Light Italic Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Xenon Ultra-Light Italic Semi-Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Xenon Ultra-Light Semi-Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Xenon Var" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Xenon Var" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Xenon Var" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Xenon Var Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Xenon Var Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Xenon Var Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Xenon Var Italic Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Xenon Var Semi-Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Xenon Var Semi-Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Xenon Var Semi-Bold Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Xenon Var Semi-Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Xenon Var Semi-Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Xenon Var Semi-Bold Italic Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Xenon Var Ultra-Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Xenon Var Ultra-Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Xenon Var Ultra-Bold Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Xenon Var Ultra-Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Xenon Var Ultra-Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Xenon Var Ultra-Bold Italic Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Xenon Var Ultra-Heavy" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Xenon Var Ultra-Heavy" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Xenon Var Ultra-Heavy" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Xenon Var Ultra-Heavy" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Xenon Var Ultra-Heavy" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Xenon Var Ultra-Heavy" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Xenon Var Ultra-Heavy" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Xenon Var Ultra-Heavy" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Xenon Var Ultra-Heavy Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Xenon Var Ultra-Heavy Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Xenon Var Ultra-Heavy Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Xenon Var Ultra-Heavy Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Xenon Var Ultra-Heavy Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Xenon Var Ultra-Heavy Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Xenon Var Ultra-Heavy Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Xenon Var Ultra-Heavy Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Xenon Var Ultra-Heavy Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Xenon Var Ultra-Heavy Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Xenon Var Ultra-Heavy Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Xenon Var Ultra-Heavy Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Xenon Var Ultra-Heavy Italic Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Xenon Var Ultra-Heavy Italic Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Xenon Var Ultra-Heavy Italic Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monaspace Xenon Var Ultra-Heavy Italic Expanded" checksum="(null)">
   </resource>
 
   <resource identifier="Mononoki Nerd Font" checksum="(null)">
@@ -3142,13 +4912,34 @@
   <resource identifier="Quicksand" checksum="(null)">
   </resource>
 
+  <resource identifier="Quicksand" checksum="(null)">
+  </resource>
+
   <resource identifier="Quicksand Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Quicksand Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Quicksand Bold Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="Quicksand Light" checksum="(null)">
   </resource>
 
   <resource identifier="Quicksand Light, Light" checksum="(null)">
   </resource>
 
+  <resource identifier="Quicksand Light Oblique" checksum="(null)">
+  </resource>
+
   <resource identifier="Quicksand Medium, Medium" checksum="(null)">
+  </resource>
+
+  <resource identifier="Quicksand Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="Quicksand Ultra-Light" checksum="(null)">
   </resource>
 
   <resource identifier="Ramabhadra" checksum="(null)">
@@ -3529,6 +5320,9 @@
   <resource identifier="TeX Gyre Termes Math" checksum="(null)">
   </resource>
 
+  <resource identifier="Times New Normal," checksum="(null)">
+  </resource>
+
   <resource identifier="Timmana Heavy" checksum="(null)">
   </resource>
 
@@ -3670,6 +5464,195 @@
   <resource identifier="Vemana2000" checksum="(null)">
   </resource>
 
+  <resource identifier="VictorMono Nerd Font" checksum="(null)">
+  </resource>
+
+  <resource identifier="VictorMono Nerd Font Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="VictorMono Nerd Font Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="VictorMono Nerd Font Bold Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="VictorMono Nerd Font Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="VictorMono Nerd Font Light" checksum="(null)">
+  </resource>
+
+  <resource identifier="VictorMono Nerd Font Light Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="VictorMono Nerd Font Light Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="VictorMono Nerd Font Medium" checksum="(null)">
+  </resource>
+
+  <resource identifier="VictorMono Nerd Font Medium Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="VictorMono Nerd Font Medium Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="VictorMono Nerd Font Mono" checksum="(null)">
+  </resource>
+
+  <resource identifier="VictorMono Nerd Font Mono Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="VictorMono Nerd Font Mono Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="VictorMono Nerd Font Mono Bold Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="VictorMono Nerd Font Mono Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="VictorMono Nerd Font Mono Light" checksum="(null)">
+  </resource>
+
+  <resource identifier="VictorMono Nerd Font Mono Light Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="VictorMono Nerd Font Mono Light Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="VictorMono Nerd Font Mono Medium" checksum="(null)">
+  </resource>
+
+  <resource identifier="VictorMono Nerd Font Mono Medium Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="VictorMono Nerd Font Mono Medium Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="VictorMono Nerd Font Mono Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="VictorMono Nerd Font Mono Semi-Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="VictorMono Nerd Font Mono Semi-Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="VictorMono Nerd Font Mono Semi-Bold Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="VictorMono Nerd Font Mono Thin" checksum="(null)">
+  </resource>
+
+  <resource identifier="VictorMono Nerd Font Mono Thin Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="VictorMono Nerd Font Mono Thin Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="VictorMono Nerd Font Mono Ultra-Light" checksum="(null)">
+  </resource>
+
+  <resource identifier="VictorMono Nerd Font Mono Ultra-Light Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="VictorMono Nerd Font Mono Ultra-Light Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="VictorMono Nerd Font Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="VictorMono Nerd Font Propo" checksum="(null)">
+  </resource>
+
+  <resource identifier="VictorMono Nerd Font Propo Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="VictorMono Nerd Font Propo Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="VictorMono Nerd Font Propo Bold Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="VictorMono Nerd Font Propo Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="VictorMono Nerd Font Propo Light" checksum="(null)">
+  </resource>
+
+  <resource identifier="VictorMono Nerd Font Propo Light Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="VictorMono Nerd Font Propo Light Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="VictorMono Nerd Font Propo Medium" checksum="(null)">
+  </resource>
+
+  <resource identifier="VictorMono Nerd Font Propo Medium Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="VictorMono Nerd Font Propo Medium Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="VictorMono Nerd Font Propo Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="VictorMono Nerd Font Propo Semi-Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="VictorMono Nerd Font Propo Semi-Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="VictorMono Nerd Font Propo Semi-Bold Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="VictorMono Nerd Font Propo Thin" checksum="(null)">
+  </resource>
+
+  <resource identifier="VictorMono Nerd Font Propo Thin Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="VictorMono Nerd Font Propo Thin Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="VictorMono Nerd Font Propo Ultra-Light" checksum="(null)">
+  </resource>
+
+  <resource identifier="VictorMono Nerd Font Propo Ultra-Light Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="VictorMono Nerd Font Propo Ultra-Light Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="VictorMono Nerd Font Semi-Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="VictorMono Nerd Font Semi-Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="VictorMono Nerd Font Semi-Bold Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="VictorMono Nerd Font Thin" checksum="(null)">
+  </resource>
+
+  <resource identifier="VictorMono Nerd Font Thin Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="VictorMono Nerd Font Thin Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="VictorMono Nerd Font Ultra-Light" checksum="(null)">
+  </resource>
+
+  <resource identifier="VictorMono Nerd Font Ultra-Light Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="VictorMono Nerd Font Ultra-Light Oblique" checksum="(null)">
+  </resource>
+
   <resource identifier="Yrsa" checksum="(null)">
   </resource>
 
@@ -3701,6 +5684,276 @@
   </resource>
 
   <resource identifier="Z003 Medium Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="ZedMono Nerd Font" checksum="(null)">
+  </resource>
+
+  <resource identifier="ZedMono Nerd Font Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="ZedMono Nerd Font Bold Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="ZedMono Nerd Font Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="ZedMono Nerd Font Bold Italic Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="ZedMono Nerd Font Bold Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="ZedMono Nerd Font Bold Oblique Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="ZedMono Nerd Font Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="ZedMono Nerd Font Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="ZedMono Nerd Font Italic Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="ZedMono Nerd Font Light" checksum="(null)">
+  </resource>
+
+  <resource identifier="ZedMono Nerd Font Light Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="ZedMono Nerd Font Light Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="ZedMono Nerd Font Light Italic Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="ZedMono Nerd Font Light Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="ZedMono Nerd Font Light Oblique Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="ZedMono Nerd Font Medium" checksum="(null)">
+  </resource>
+
+  <resource identifier="ZedMono Nerd Font Medium Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="ZedMono Nerd Font Medium Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="ZedMono Nerd Font Medium Italic Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="ZedMono Nerd Font Medium Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="ZedMono Nerd Font Medium Oblique Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="ZedMono Nerd Font Mono" checksum="(null)">
+  </resource>
+
+  <resource identifier="ZedMono Nerd Font Mono Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="ZedMono Nerd Font Mono Bold Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="ZedMono Nerd Font Mono Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="ZedMono Nerd Font Mono Bold Italic Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="ZedMono Nerd Font Mono Bold Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="ZedMono Nerd Font Mono Bold Oblique Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="ZedMono Nerd Font Mono Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="ZedMono Nerd Font Mono Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="ZedMono Nerd Font Mono Italic Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="ZedMono Nerd Font Mono Light" checksum="(null)">
+  </resource>
+
+  <resource identifier="ZedMono Nerd Font Mono Light Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="ZedMono Nerd Font Mono Light Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="ZedMono Nerd Font Mono Light Italic Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="ZedMono Nerd Font Mono Light Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="ZedMono Nerd Font Mono Light Oblique Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="ZedMono Nerd Font Mono Medium" checksum="(null)">
+  </resource>
+
+  <resource identifier="ZedMono Nerd Font Mono Medium Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="ZedMono Nerd Font Mono Medium Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="ZedMono Nerd Font Mono Medium Italic Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="ZedMono Nerd Font Mono Medium Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="ZedMono Nerd Font Mono Medium Oblique Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="ZedMono Nerd Font Mono Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="ZedMono Nerd Font Mono Oblique Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="ZedMono Nerd Font Mono Ultra-Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="ZedMono Nerd Font Mono Ultra-Bold Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="ZedMono Nerd Font Mono Ultra-Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="ZedMono Nerd Font Mono Ultra-Bold Italic Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="ZedMono Nerd Font Mono Ultra-Bold Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="ZedMono Nerd Font Mono Ultra-Bold Oblique Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="ZedMono Nerd Font Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="ZedMono Nerd Font Oblique Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="ZedMono Nerd Font Propo" checksum="(null)">
+  </resource>
+
+  <resource identifier="ZedMono Nerd Font Propo Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="ZedMono Nerd Font Propo Bold Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="ZedMono Nerd Font Propo Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="ZedMono Nerd Font Propo Bold Italic Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="ZedMono Nerd Font Propo Bold Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="ZedMono Nerd Font Propo Bold Oblique Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="ZedMono Nerd Font Propo Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="ZedMono Nerd Font Propo Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="ZedMono Nerd Font Propo Italic Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="ZedMono Nerd Font Propo Light" checksum="(null)">
+  </resource>
+
+  <resource identifier="ZedMono Nerd Font Propo Light Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="ZedMono Nerd Font Propo Light Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="ZedMono Nerd Font Propo Light Italic Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="ZedMono Nerd Font Propo Light Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="ZedMono Nerd Font Propo Light Oblique Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="ZedMono Nerd Font Propo Medium" checksum="(null)">
+  </resource>
+
+  <resource identifier="ZedMono Nerd Font Propo Medium Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="ZedMono Nerd Font Propo Medium Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="ZedMono Nerd Font Propo Medium Italic Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="ZedMono Nerd Font Propo Medium Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="ZedMono Nerd Font Propo Medium Oblique Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="ZedMono Nerd Font Propo Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="ZedMono Nerd Font Propo Oblique Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="ZedMono Nerd Font Propo Ultra-Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="ZedMono Nerd Font Propo Ultra-Bold Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="ZedMono Nerd Font Propo Ultra-Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="ZedMono Nerd Font Propo Ultra-Bold Italic Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="ZedMono Nerd Font Propo Ultra-Bold Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="ZedMono Nerd Font Propo Ultra-Bold Oblique Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="ZedMono Nerd Font Ultra-Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="ZedMono Nerd Font Ultra-Bold Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="ZedMono Nerd Font Ultra-Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="ZedMono Nerd Font Ultra-Bold Italic Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="ZedMono Nerd Font Ultra-Bold Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="ZedMono Nerd Font Ultra-Bold Oblique Expanded" checksum="(null)">
   </resource>
 
   <resource identifier="${gimp_data_dir}/tool-presets/Crop/16_10.gtp" checksum="(null)">
