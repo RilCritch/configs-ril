@@ -96,7 +96,7 @@ $directory
 $python$c$java$lua$rust\
 $character"""
 
-add_newline = false
+add_newline = true
 
 # command_timout = 500 # Default
 # command_timeout = 500
