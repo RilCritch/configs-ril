@@ -1,4 +1,7 @@
 --[[ -- RilCritch's Wezterm Configuration -- ]]--
+-- 
+-- The init file for my wezterm configuration. 
+-- The goal is to keep this modular from the start
 
 
 --[[ Initial Config Setup ]]-- {{{
@@ -16,3 +19,17 @@ end
 config:set_strict_mode(true)
 
 --}}}
+
+
+--[[ Config Modules ]]-- {{{
+
+
+
+-- }}}
+
+
+--[[ Return Config Table ]]--
+return config
+
+
+-- vim:fileencoding=utf-8:foldmethod=marker
