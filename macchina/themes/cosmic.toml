@@ -1,0 +1,37 @@
+# Cosmic Desktop macchina Theme
+
+## General
+spacing = 2 # seperator spacing between both keys and info
+padding = 0 # padding between content (info) and surroundings (ascii, border, etc.)
+
+## Basic Theming
+key_color       = "Light Blue" # color of the key names
+separator       = "󰮺" # seperator between keys and info
+separator_color = "Black" # color of seperators
+
+## Pallete - color scheme
+[palette]
+visible = true
+glyph   = "●  " # character for colors
+type    = "Full"  # Dark (regular), Light, Full (both) colors
+
+## Bar - replace ranged data with bars
+[bar]
+visible = true
+glyph        = "○" # bar fill
+symbol_open  = '['
+symbol_close = ']'
+hide_delimiters = true
+
+## Box - box that surrounds the system information (keys, values, and pallete
+[box]
+visible = true
+title   = " Cosmic Desktop "
+[box.inner_margin]
+x = 2 # sides
+y = 0 # top and bottom
+
+## Custom Ascii - custom ascii art config
+[custom_ascii]
+path = "~/.config/macchina/ascii/cosmic_de"
+color = "Yellow" # nord orange

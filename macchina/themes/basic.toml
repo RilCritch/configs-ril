@@ -1,0 +1,12 @@
+# Cosmic Desktop macchina Theme
+
+## General
+spacing = 0 # seperator spacing between both keys and info
+padding = 0 # padding between content (info) and surroundings (ascii, border, etc.)
+hide_ascii = true
+
+## Basic Theming
+key_color       = "15" # color of the key names
+separator       = ":" # seperator between keys and info
+separator_color = "15" # color of seperators
+

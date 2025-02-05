@@ -1,0 +1,36 @@
+# |- Basic Config -| #
+
+# Internet
+interface = "eth0"
+
+# System Info
+long_uptime = true
+long_shell = true
+long_kernel = true
+current_shell = true
+
+# Hardware
+physical_cores = true
+disks = ["/", "/home"]
+
+# Theme
+theme = "basic"
+
+show = [ # All options
+    "Host",
+    "Machine",
+    "Kernel",
+    "Distribution",
+    "DesktopEnvironment",
+    "WindowManager",
+    "Resolution",
+    "Packages",
+    "Terminal",
+    "Shell",
+    "Uptime",
+    "Processor",
+    "ProcessorLoad",
+    "Memory",
+    "GPU",
+    "DiskSpace",
+]
