@@ -1,0 +1,25 @@
+// Default Layout for Zellij
+
+layout {
+    default_tab_template {
+        pane size=1 borderless=true {
+            plugin location="file:~/.config/zellij/plugins/zjstatus.wasm" {
+                color_bg "#191D24"
+                color_overlay "#2E3440"
+                color_inact "#60728A"
+                color_act "#81A1C1"
+                color_trans ""
+                color_yel "#EFD49F"
+                color_cyan "#9FC6C5"
+
+                format_left  "{mode}#[fg=$overlay,bg=$inact] #[fg=$bg,bg=$inact,bold]{session} #[fg=$inact,bg=$overlay] {tabs}"
+                format_right "#[fg=#181825,bg=#2E3440]{datetime}"
+                format_space "#[bg=$overlay]"
+            }
+        }
+        children
+        pane size=1 borderless=true {
+            plugin location="zellij:status-bar"
+        }
+    }
+}

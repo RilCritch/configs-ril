@@ -1,0 +1,18 @@
+// Nordic Zellij Color Theme
+// |= Author: RilCritch
+
+themes {
+    nordic {
+        fg "#60728A"
+        bg "#EBCB8B"
+        black "#2E3440"
+        red "#ECEFF4"
+        green "#81A1C1"
+        yellow "#EBCB8B"
+        blue "#81A1C1"
+        magenta "#C5727A"
+        cyan "#8FBCBB"
+        orange "#EFD49F"
+        white "#D8DEE9"
+    }
+}

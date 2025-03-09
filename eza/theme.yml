@@ -88,7 +88,7 @@ file_type:
   build: {foreground: Yellow, is_bold: true, is_underline: true}
   source: {foreground: Yellow, is_bold: true}
 
-punctuation: {foreground: BrightBlack, is_bold: true}
+punctuation: {foreground: Black, is_bold: true}
 date: {foreground: Blue}
 inode: {foreground: Purple}
 blocks: {foreground: Cyan}
