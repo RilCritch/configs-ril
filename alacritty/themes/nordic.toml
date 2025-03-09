@@ -1,0 +1,59 @@
+# Colors (Nordic)
+
+
+[colors.primary]
+background        = '#191D24'
+foreground        = '#E5E9F0'
+dim_foreground    = '#D8DEE9'
+bright_foreground = '#ECEFF4'
+
+[colors.cursor]
+text   = "CellBackground"
+cursor = "#BBC3D4"
+
+[colors.vi_mode_cursor]
+text   = "CellBackground"
+cursor = "#BBC3D4"
+
+[colors.normal]
+black   = '#4C566A'
+red     = '#BF616A'
+green   = '#A3BE8C'
+yellow  = '#EBCB8B'
+blue    = '#81A1C1'
+magenta = '#B48EAD'
+cyan    = '#8FBCBB'
+white   = '#BBC3D4'
+
+[colors.bright]
+black   = '#60728A'
+red     = '#C5727A'
+green   = '#B1C89D'
+yellow  = '#EFD49F'
+blue    = '#88C0D0'
+magenta = '#BE9DB8'
+cyan    = '#9FC6C5'
+white   = '#D8DEE9'
+
+[colors.selection]
+text       = 'CellForeground'
+background = '#434C5E'
+
+[colors.line_indicator] # indicator diplaying position in hist search and vi mode
+foreground = "None"
+background = "None"
+
+[colors.footer_bar]
+foreground = "#D8DEE9"
+background = "#2E3440"
+
+[colors.search]
+matches       = { foreground = "CellForeground", background = "#434C5E"}
+focused_match = { foreground = "CellBackground", background = "#EFD49F" }
+
+[colors.hints]
+start = { foreground = "CellBackground", background = "#81A1C1" }
+end   = { foreground = "CellBackground", background = "#4E6F97" }
+
+[bell]
+color = "#C5727A"

@@ -1,0 +1,78 @@
+# >>= RilCritch's Alacritty Configuration =<<
+
+
+# |= General Settings and Options
+
+[general]
+import = [
+    "themes/nordic.toml" # theme
+]
+working_directory  = "None" # starting directory
+live_config_reload = true # live reload for config changes
+ipc_socket         = true # offer IPC w/ alacritty msg
+
+[terminal]
+# shell = {program="/usr/bin/zsh", args=["-c", "tmux"]}
+osc52 = "OnlyCopy"
+
+[env] # key-value pairs to add to the shell env vars
+TERM = "alacritty"
+
+
+# |= User Interface and Style Options
+
+[window]
+padding       = { x = 15, y = 12 } # padding arount content
+decorations   = "None" # window decorations (use "Full" or "None")
+opacity       = 0.925
+title         = "Alacritty" # default window title
+dynamic_title = true # allow terminal apps to change title
+
+[font]
+normal      = { family = "MonoLisaNerdFont", style = "Regular" }
+bold        = { style = "Bold" }
+italic      = { style = "Italic" }
+bold_italic = { style = "Bold Italic"}
+
+size   = 13 # font size in points
+offset = { x = 0, y = 0 } # extra space around character
+builtin_box_drawing = true # use custom font for box drawing chars
+
+[colors]
+transparent_background_colors     = false # all background transparent
+draw_bold_text_with_bright_colors = true
+
+
+# |= Behavior
+
+[scrolling]
+history    = 10000 # number of lines for scrollback history
+multiplier = 3 # lines to scroll for every scroll input
+
+[bell] # terminal bell options (color set in theme)
+animation = "Ease"
+duration  = 0 # millisecons (0 to disable)
+command   = "None" # command to run when bell is rung - None to disable
+
+[cursor]
+# SHP: Block | Underline | Beam ; BLINK: Never | Off | On | Always
+style            = { shape = "Beam", blinking = "On" }
+vi_mode_style    = { shape = "Block", blinking = "On" }
+blink_interval   = 500 # milliseconds
+blink_timeout    = 5 # seconds (0 to disable)
+unfocused_hollow = true # hollow block when win not focused
+thickness        = 0.2 # thickness relative to sell (0.0 to 1.0)
+
+[hints] # TODO: need to look into this
+alphabet = "jfkdlsie;a" # keys to use in hint labels
+
+
+# |= Input
+
+[mouse]
+hide_when_typing = true
+
+[keyboard]
+bindings = [
+{ mods = "Control|Shift", key = "O", action = "None"} # disable alacritty vi mode
+]
