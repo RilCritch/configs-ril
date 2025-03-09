@@ -9,10 +9,10 @@ alignment = "left"
 newline = true
 type = "prompt"
 
-  [[blocks.segments]]
-  type = "text"
-  foreground = "black"
-  template = "╰╴"
+  # [[blocks.segments]]
+  # type = "text"
+  # foreground = "black"
+  # template = "╰╴"
 
   [[blocks.segments]]
   type = "time"
@@ -30,7 +30,7 @@ type = "prompt"
 filler = "<black>─</>"
 
   [[blocks.segments]]
-  foreground = "lightCyan"
+  foreground = "cyan"
   foreground_templates = [ "{{ if gt .Code 0 }}lightRed{{ end }}" ]
   style = "diamond"
   template = "<black>╴</>{{ .FormattedMs }} "
@@ -44,8 +44,8 @@ filler = "<black>─</>"
   [[blocks.segments]]
   type = "shell"
   style = "plain"
-  foreground = "white"
-  template = "<d>on</d> {{ .Name }}"
+  foreground = "cyan"
+  template = "<white>on</> {{ .Name }}"
 
     [blocks.segments.properties.mapped_shell_names]
     pwsh = "Pwsh"
@@ -122,10 +122,14 @@ type = "prompt"
 
   [[blocks.segments]]
   type = "status"
-  foreground = "lightCyan"
+  foreground = "white"
   foreground_templates = [ "{{ if .Error }}red{{ end }}" ]
   style = "plain"
   template = "<d></d>"
 
     [blocks.segments.properties]
     always_enabled = true
+
+[transient_prompt]
+foreground = "white"
+template = "<cyan>{{ .PWD  }}</><d><darkGray> </></d> "
