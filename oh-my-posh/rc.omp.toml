@@ -10,34 +10,19 @@ newline = true
 type = "prompt"
 
   [[blocks.segments]]
+  type = "text"
+  foreground = "black"
+  template = "╰╴"
+
+  [[blocks.segments]]
   type = "time"
   foreground = "white"
   style = "plain"
-  template = "<black>╭╴</>{{ .CurrentDate | date .Format }}<black>╶</>"
+  template = "{{ .CurrentDate | date .Format }}<black>╶</>"
 
     [blocks.segments.properties]
     time_format = "Monday 3:04 PM"
 
-
-  [[blocks.segments]]
-  type = "git"
-  foreground = "lightBlue"
-  foreground_templates = [
-  "{{ if or (.Working.Changed) (.Staging.Changed) }}lightYellow{{ end }}",
-  "{{ if and (gt .Ahead 0) (gt .Behind 0) }}lightRed{{ end }}",
-  "{{ if gt .Ahead 0 }}lightMagenta{{ end }}",
-  "{{ if gt .Behind 0 }}lightMagenta{{ end }}"
-   ]
-  style = "plain"
-  template = "<black>╴</>{{ .UpstreamIcon }} {{ .HEAD }}{{ if .BranchStatus }} {{ .BranchStatus }}{{ end }}{{ if .Working.Changed }}  {{ .Working.Modified }}{{ end }}{{ if and (.Working.Changed) (.Staging.Changed) }}{{ end }}{{ if .Staging.Changed }}  {{ .Staging.String }}{{ end }}{{ if gt .StashCount 0 }}  {{ .StashCount }}{{ end }} "
-
-    [blocks.segments.properties]
-    branch_max_length = 25
-    fetch_stash_count = true
-    fetch_status = true
-    fetch_upstream_icon = true
-    branch_icon = ""
-    branch_identical_icon = ""
 
 [[blocks]]
 alignment = "right"
@@ -45,7 +30,7 @@ type = "prompt"
 filler = "<black>─</>"
 
   [[blocks.segments]]
-  foreground = "cyan"
+  foreground = "lightCyan"
   foreground_templates = [ "{{ if gt .Code 0 }}lightRed{{ end }}" ]
   style = "diamond"
   template = "<black>╴</>{{ .FormattedMs }} "
@@ -60,7 +45,7 @@ filler = "<black>─</>"
   type = "shell"
   style = "plain"
   foreground = "white"
-  template = "<d>on</d> {{ .Name }}<black>╶╮</>"
+  template = "<d>on</d> {{ .Name }}"
 
     [blocks.segments.properties.mapped_shell_names]
     pwsh = "Pwsh"
@@ -70,19 +55,51 @@ filler = "<black>─</>"
     zsh = "Zsh"
     fish = "Fish"
 
+  [[blocks.segments]]
+  type = "text"
+  foreground = "black"
+  template = "╶╮"
+
 [[blocks]]
 alignment = "left"
 newline = true
 type = "prompt"
 
   [[blocks.segments]]
-  foreground = "#61AFEF"
+  type = "text"
+  foreground = "black"
+  template = "╭"
+
+  [[blocks.segments]]
+  type = "git"
+  foreground = "cyan"
+  foreground_templates = [
+  "{{ if or (.Working.Changed) (.Staging.Changed) }}green{{ end }}",
+  "{{ if and (gt .Ahead 0) (gt .Behind 0) }}lightRed{{ end }}",
+  "{{ if gt .Ahead 0 }}lightMagenta{{ end }}",
+  "{{ if gt .Behind 0 }}lightMagenta{{ end }}"
+   ]
   style = "plain"
-  template = " {{ .Path }}"
-  type = "path"
+  template = "<black>╴</>{{ .UpstreamIcon }} {{ .HEAD }}{{ if .BranchStatus }} {{ .BranchStatus }}{{ end }}{{ if .Working.Changed }}  {{ .Working.Modified }}{{ end }}{{ if and (.Working.Changed) (.Staging.Changed) }}{{ end }}{{ if .Staging.Changed }}  {{ .Staging.String }}{{ end }}{{ if gt .StashCount 0 }}  {{ .StashCount }}{{ end }}<black>╶</>"
 
     [blocks.segments.properties]
-    style = "full"
+    branch_max_length = 25
+    fetch_stash_count = true
+    fetch_status = true
+    fetch_upstream_icon = true
+    branch_icon = ""
+    branch_identical_icon = ""
+
+
+[[blocks]]
+alignment = "right"
+type = "prompt"
+filler = "<black>─</>"
+
+  [[blocks.segments]]
+  type = "text"
+  foreground = "black"
+  template = "╯"
 
 [[blocks]]
 alignment = "left"
@@ -90,13 +107,25 @@ newline = true
 type = "prompt"
 
   [[blocks.segments]]
-  foreground = "#E06C75"
-  style = "plain"
-  template = "!"
-  type = "root"
+  type = "text"
+  foreground = "black"
+  template = "╰─ "
 
   [[blocks.segments]]
-  foreground = "#E06C75"
+  type = "path"
+  foreground = "blue"
   style = "plain"
-  template = "❯"
-  type = "text"
+  template = "<b> {{ .Path }}</b><darkGray> </>"
+
+    [blocks.segments.properties]
+    style = "unique"
+
+  [[blocks.segments]]
+  type = "status"
+  foreground = "lightCyan"
+  foreground_templates = [ "{{ if .Error }}red{{ end }}" ]
+  style = "plain"
+  template = "<d></d>"
+
+    [blocks.segments.properties]
+    always_enabled = true
