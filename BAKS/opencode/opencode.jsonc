@@ -1,0 +1,53 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+
+  // ---------------------------------------------------------------------------
+  // 1) Core defaults: model, theme, autoupdate
+  // ---------------------------------------------------------------------------
+
+  // Adaptive theme that matches your terminal.
+  "theme": "system",
+
+  // Optional: set once you’ve picked a favorite via /models.
+  // "model": "opencode/gpt-5.1-codex",
+
+  "autoupdate": true,
+
+  // ---------------------------------------------------------------------------
+  // 2) Permissions (recommended starter baseline)
+  // ---------------------------------------------------------------------------
+  // "ask" will prompt you before executing.
+  // Note: "edit" governs *all* file modifications (edit/write/patch/multiedit).
+  "permission": {
+    "edit": "ask",
+    "bash": "ask"
+  },
+
+  // ---------------------------------------------------------------------------
+  // 3) Plugins
+  // ---------------------------------------------------------------------------
+  "plugin": [
+    // "opencode-helicone-session"
+    // "@my-org/custom-plugin"
+  ],
+
+  // ---------------------------------------------------------------------------
+  // 4) Disable providers (hide/remove them even if credentials exist)
+  // ---------------------------------------------------------------------------
+  "disabled_providers": [
+    // "openai",
+    // "gemini"
+  ],
+
+  // ---------------------------------------------------------------------------
+  // 5) Agents
+  // ---------------------------------------------------------------------------
+  "default_agent": "build",
+
+  "agent": {
+    // "code-reviewer": {
+    //   "description": "Reviews code for best practices, correctness, and potential issues.",
+    //   "model": "anthropic/claude-sonnet-4-5"
+    // }
+  }
+}
