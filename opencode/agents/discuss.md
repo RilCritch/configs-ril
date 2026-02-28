@@ -4,26 +4,32 @@ description: Read-only expert for understanding and discussing the project. Can 
 color: "#7FBBB3"
 temperature: 0.2
 
-tools:
-  # Read-only project exploration
-  read: true
-  list: true
-  glob: true
-  grep: true
-
-  # Code intelligence
-  lsp: true
-
-  # Shell (permission-gated)
-  bash: true
-
-  # Hard-disable file modification tools
-  edit: false
-  write: false
-  patch: false
-  multiedit: false
+# tools:
+#   # Read-only project exploration
+#   read: true
+#   list: true
+#   glob: true
+#   grep: true
+# 
+#   # Code intelligence
+#   lsp: true
+# 
+#   # Shell (permission-gated)
+#   bash: true
+# 
+#   # Hard-disable file modification tools
+#   edit: false
+#   write: false
+#   patch: false
+#   multiedit: false
 
 permission:
+
+  # Utilities
+  todowrite: allow
+  todoread: allow
+  question: allow
+
   # Never modify files (covers edit/write/patch/multiedit)
   edit: deny
 
@@ -31,7 +37,12 @@ permission:
   lsp: allow
 
   # Fetch documentation pages
-  webfetch: allow
+  # webfetch: allow
+
+  # Searching
+  web_search_exa: allow
+  crawling_exa: allow
+  get_code_context: allow
 
   # Keep external paths guarded
   external_directory:
